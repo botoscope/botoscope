@@ -1,0 +1,112 @@
+body{
+    margin:0;
+    padding:12px 20px;
+    background:#fff;
+    color:#111;
+    font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background: url(../img/page-bg.svg) center repeat;
+    background-size: 320px auto;
+    opacity: 0.05;
+    pointer-events: none;
+}
+
+img,video{
+    max-width:100%;
+    height:auto;
+}
+
+a{
+    color:#0a84ff;
+    text-decoration:none;
+}
+
+a:hover{
+    text-decoration:underline;
+}
+
+h1,h2,h3{
+    line-height:1.25;
+    margin:1.2em 0 .5em;
+}
+
+p,ul,ol,table{
+    margin:0 0 1em;
+}
+
+footer, header, .woocommerce-breadcrumb {
+    display: none;
+}
+
+.botoscope-telegram-products {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.botoscope-product {
+    border: 1px solid #ddd;
+    padding: 12px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    transition: box-shadow 0.3s;
+}
+
+.botoscope-product > p{
+    display: inline-block;
+    max-height: 211px;
+    overflow: hidden;
+}
+
+.botoscope-product:hover {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.botoscope-product img {
+    width: 100%;
+    height: auto;
+    max-height: 180px;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+
+.botoscope-product h2 {
+    font-size: 16px;
+    margin: 0 0 6px;
+    color: #0077cc;
+}
+
+.botoscope-product span[itemprop="price"] {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.botoscope-pagination {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.botoscope-pagination > ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+.botoscope-pagination > ul > li{
+    padding: 5px;
+}
+
+.wp-audio-shortcode.mejs-audio{
+    margin-bottom: 5px !important;
+}

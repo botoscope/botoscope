@@ -1,0 +1,14 @@
+.data-table-cell-link{
+    font-size: 21px;
+    width: 34px;
+    height: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f1f1f1;
+    border: 1px solid #eeecec;
+    text-align: center;
+    border-radius: 20%;
+    color: #2b2a2a;
+}
+

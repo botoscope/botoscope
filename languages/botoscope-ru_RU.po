@@ -1,0 +1,2400 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Botoscope\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-01-03 12:08+0000\n"
+"PO-Revision-Date: 2026-04-14 11:33+0000\n"
+"Last-Translator: \n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10 >= 2 && "
+"n%10<=4 &&(n%100<10||n%100 >= 20)? 1 : 2);\n"
+"X-Domain: botoscope\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.14; wp-6.7.1\n"
+
+#. %s: products count fraction e.g. "5 / 9"
+#: exts/products/app.php:2612
+#, php-format
+msgid "%s products"
+msgstr "%s товаров"
+
+#: exts/marketing/classes/marketing_strategies_app.php:217
+msgid "1+1=3 or 2+1"
+msgstr "1+1=3 или 2+1"
+
+#: exts/marketing/classes/marketing_strategies_app.php:212
+msgid "2 + 1"
+msgstr "2 + 1"
+
+#: exts/marketing/classes/marketing_campaigns_app.php:423
+msgid "50% discount on 2, 100% on 3"
+msgstr "Скидка 50% на 2, 100% на 3"
+
+#: classes/controls.php:32
+msgid "About shop"
+msgstr "О магазине"
+
+#: exts/products/views/single-product.php:162
+msgid "Access days"
+msgstr "Дни доступа"
+
+#: classes/taxonomies.php:682
+msgid "Activate all terms"
+msgstr "Активировать все термины"
+
+#: botoscope.php:482
+msgid "Active"
+msgstr "Активный"
+
+#: botoscope.php:502
+msgid "Add"
+msgstr "Добавить"
+
+#: classes/controls.php:79
+msgid ""
+"Add a button to view the product on your website. Useful for custom "
+"checkouts, headless commerce, B2B orders, or when using Telegram bot as a "
+"product catalog only."
+msgstr ""
+"Добавьте кнопку для просмотра товара на вашем сайте. Полезно для "
+"пользовательских форм оформления заказа, безголовой коммерции, заказов B2B "
+"или при использовании Telegram-магазина только в качестве каталога товаров."
+
+#: botoscope.php:619
+msgid "Add all"
+msgstr "Добавить все"
+
+#: botoscope.php:612
+msgid "Add audio"
+msgstr "Добавить аудио"
+
+#: botoscope.php:614
+msgid "Add image"
+msgstr "Добавить изображение"
+
+#: botoscope.php:635
+msgid "Added"
+msgstr "Добавлен"
+
+#: botoscope.php:517
+msgid "Address"
+msgstr "Адрес"
+
+#: exts/b2b/app.php:30
+msgid ""
+"Adds a button to each cart item that prompts users in Telegram to enter a "
+"custom quantity"
+msgstr ""
+"Добавляет кнопку к каждому товару в корзине, которая запрашивает у "
+"пользователей в Telegram ввод нужного количества"
+
+#: classes/extensions.php:96 exts/advertising/app.php:28
+msgid "Advertising"
+msgstr "Реклама"
+
+#: botoscope.php:456
+#| msgid ""
+#| "After performing bulk operations, go to the Botoscope system controls and "
+#| "click the “Reset telegram product data cache” button to synchronize with "
+#| "the bot."
+msgid ""
+"After performing bulk operations, go to the Botoscope system controls and "
+"click the \"Syncing products with Telegram\" button to synchronize with the "
+"bot."
+msgstr ""
+"После выполнения массовых операций перейдите в системное управление "
+"Botoscope и нажмите кнопку «Синхронизация товаров с Telegram», чтобы "
+"синхронизировать с ботом."
+
+#: classes/payment.php:478
+msgid ""
+"After placing your order, don't forget to send the link to your partner."
+msgstr "После оформления заказа не забудьте отправить ссылку своему партнеру."
+
+#: botoscope.php:536
+msgid "Amount"
+msgstr "Сумма"
+
+#: botoscope.php:636
+msgid "Analytics"
+msgstr "Аналитика"
+
+#: exts/business_in_pocket/app.php:120
+msgid "Answer to customer now"
+msgstr "Ответьте клиенту сейчас"
+
+#: botoscope.php:628
+msgid "Append"
+msgstr "Добавить"
+
+#: botoscope.php:624
+msgid "Append meta field"
+msgstr "Добавить метаполе"
+
+#: botoscope.php:584
+msgid "append new formula"
+msgstr "добавить новую формулу"
+
+#: botoscope.php:494
+msgid "append new row"
+msgstr "добавить новую строку"
+
+#: exts/marketing/classes/marketing_strategies_app.php:223
+msgid "Applies XX% off to all items"
+msgstr "Применяется скидка XX% на все товары"
+
+#: botoscope.php:632
+msgid "Apply"
+msgstr "Применить"
+
+#: botoscope.php:675
+msgid "Apr"
+msgstr "Апр"
+
+#: botoscope.php:661
+msgid "April"
+msgstr "Апрель"
+
+#: botoscope.php:475
+msgid "Are you sure?"
+msgstr "Вы уверены?"
+
+#: botoscope.php:642
+msgid ""
+"Are you sure? All metadata attached to products will also be deleted. This "
+"action cannot be undone!"
+msgstr ""
+"Вы уверены? Все метаданные, прикрепленные к продуктам, также будут удалены. "
+"Это действие не может быть отменено!"
+
+#: botoscope.php:492
+msgid "Arm"
+msgstr "Рука"
+
+#: botoscope.php:511
+msgid "Attribute"
+msgstr "Атрибут"
+
+#: botoscope.php:578
+msgid "Attributes"
+msgstr "Атрибуты"
+
+#: exts/products/views/single-product.php:55
+msgid "Audio"
+msgstr "Аудио"
+
+#: botoscope.php:679
+msgid "Aug"
+msgstr "Авг"
+
+#: botoscope.php:665
+msgid "August"
+msgstr "Август"
+
+#: classes/payment.php:472
+msgid "Bank transfer"
+msgstr "Банковский перевод"
+
+#: exts/marketing/classes/marketing_strategies_app.php:222
+msgid "Black Friday"
+msgstr "Черная Пятница"
+
+#: exts/marketing/classes/marketing_campaigns_app.php:427
+msgid "Black Friday - 50% OFF"
+msgstr "Черная пятница - СКИДКА 50%"
+
+#: classes/extensions.php:139 exts/booking/app.php:40
+msgid "Booking"
+msgstr "Бронирование"
+
+#: exts/booking/app.php:219
+msgid "Booking created manually by administrator"
+msgstr "Бронирование создано вручную администратором"
+
+#: exts/products/views/single-product.php:176
+msgid "Booking slots"
+msgstr "Слоты бронирования"
+
+#: exts/booking/app.php:272
+msgid "Booking slots for product"
+msgstr "Резервирование слотов для продукта"
+
+#: exts/booking/app.php:287
+msgid "Booking system is off"
+msgstr "Система бронирования отключена"
+
+#: exts/booking/app.php:286
+msgid "Booking system is on"
+msgstr "Система бронирования включена"
+
+#: views/options.php:35
+msgid "Boost Your Business with Telegram Commerce"
+msgstr "Развивайте свой бизнес с помощью Telegram Commerce"
+
+#: botoscope.php:547
+msgid "Bot Languages"
+msgstr "Языки Telegram-магазинов"
+
+#. Name of the plugin
+msgid "Botoscope"
+msgstr "Ботоскоп"
+
+#. Author of the plugin
+msgid "botoscope"
+msgstr ""
+
+#: exts/business_in_pocket/app.php:170
+msgid "Botoscope chat: business in pocket"
+msgstr "Чат Botoscope: бизнес в кармане"
+
+#: botoscope.php:1107
+msgid "Botoscope filter"
+msgstr "Фильтр ботоскопа"
+
+#: botoscope.php:1079
+msgid "Botoscope media casting"
+msgstr "Медиакастинг Botoscope"
+
+#: exts/products/views/single-product.php:26
+msgid "Botoscope meta"
+msgstr "Ботоскоп мета"
+
+#: wp_hooks.php:67
+#| msgid "BotoScope percent product discount"
+msgid "Botoscope percent product discount"
+msgstr "Процентная скидка на продукцию"
+
+#: botoscope.php:1051
+msgid "Botoscope privacy policy"
+msgstr "Политика конфиденциальности Botoscope"
+
+#: botoscope.php:1093
+msgid "Botoscope product details"
+msgstr "Подробная информация о продукте Botoscope"
+
+#: botoscope.php:1037
+msgid "Botoscope refund policy"
+msgstr "Политика возврата средств Botoscope"
+
+#: botoscope.php:1065
+msgid "Botoscope shipping policy"
+msgstr "Политика доставки Botoscope"
+
+#: botoscope.php:1169
+msgid "Botoscope Simple Media Casting"
+msgstr "Botoscope Simple Media Casting"
+
+#: botoscope.php:1167
+msgid "Botoscope Simple Virtual"
+msgstr "Botoscope Simple Virtual"
+
+#: botoscope.php:1168
+msgid "Botoscope Simple Virtual Downloadable"
+msgstr "Botoscope Simple Virtual Downloadable"
+
+#: exts/business_in_pocket/views/chat.php:11
+msgid "Botoscope Support Chat"
+msgstr "Чат поддержки"
+
+#: botoscope.php:259
+msgid "Botoscope telegram video link"
+msgstr "Ссылка на видео в телеграмме Botoscope"
+
+#: botoscope.php:1121
+msgid "Botoscope variation gallery"
+msgstr "Галерея вариаций ботоскопа"
+
+#: botoscope.php:455
+#| msgid "BotoScope — Your Partner for Telegram Sales Success"
+msgid "Botoscope — Your Partner for Telegram Sales Success"
+msgstr "Botoscope — ваш партнер для успешных продаж в Telegram."
+
+#: botoscope.php:249
+msgid "Botoscope: Products Dashboard"
+msgstr "Панель продуктов"
+
+#: exts/products/views/single-product.php:262
+msgid "Brand"
+msgstr "Бренд"
+
+#: botoscope.php:489
+msgid "Breast"
+msgstr "Грудь"
+
+#: classes/extensions.php:131
+msgid "Broadcast"
+msgstr "Транслировать"
+
+#: exts/broadcast/app.php:24
+msgid "broadcast"
+msgstr "вещать"
+
+#: classes/extensions.php:97
+msgid "Broadcast your own advertising to your customers"
+msgstr "Транслируйте свою собственную рекламу своим клиентам"
+
+#: botoscope.php:604
+msgid "Bulk Editing"
+msgstr "Массовое редактирование"
+
+#: classes/extensions.php:161
+msgid "Business in your pocket"
+msgstr "Бизнес у вас в кармане"
+
+#: botoscope.php:595
+msgid "Button"
+msgstr "Кнопка"
+
+#: classes/controls.php:121 classes/controls.php:180
+msgid "Button in admin menu"
+msgstr "Кнопка в меню администратора"
+
+#: exts/marketing/classes/marketing_campaigns_app.php:419
+msgid "Buy one or more and get 50% discount"
+msgstr "Купите один или несколько и получите скидку 50%"
+
+#: exts/marketing/app.php:42
+msgid "Campaigns"
+msgstr "Кампании"
+
+#: botoscope.php:484
+msgid "Cancel"
+msgstr "Отмена"
+
+#: exts/booking/app.php:430
+msgid "cancelled by botoscope"
+msgstr "отменено ботоскопом"
+
+#: exts/booking/app.php:288
+msgid "Capacity"
+msgstr "Емкость"
+
+#: classes/controls.php:106
+msgid "Categories buttons per row"
+msgstr "Кнопки категорий в каждом ряду"
+
+#: botoscope.php:507 exts/products/views/single-product.php:256
+msgid "Category"
+msgstr "Категория"
+
+#: botoscope.php:485
+msgid "Charts for"
+msgstr "Графики для"
+
+#: exts/shopify_sync/app.php:89
+msgid "Checking webhooks..."
+msgstr "Проверка вебхуков..."
+
+#: botoscope.php:541
+msgid "Child terms"
+msgstr "Подкатегории"
+
+#: classes/app.php:27
+msgid "click to edit ..."
+msgstr "нажмите, чтобы изменить..."
+
+#. %d: number of clients
+#: exts/business_in_pocket/views/chat.php:21
+msgid "Clients waiting for reply (%d)"
+msgstr "Клиенты ждут ответа (%d)"
+
+#: botoscope.php:622
+msgid "Clone"
+msgstr "Kлонировать"
+
+#: botoscope.php:464
+msgid "Close"
+msgstr "Закрыть"
+
+#: botoscope.php:535
+msgid "Code"
+msgstr "Код"
+
+#: botoscope.php:576
+msgid "Combination"
+msgstr "Комбинация"
+
+#: botoscope.php:577
+msgid "Combination of attributes should be unique"
+msgstr "Комбинация атрибутов должна быть уникальной"
+
+#: classes/extensions.php:88
+msgid "Compliments bring comfort to your customers"
+msgstr "Комплименты приносят комфорт вашим клиентам"
+
+#: botoscope.php:620
+msgid "Composition"
+msgstr "Состав"
+
+#: views/options.php:142
+msgid "Connect your shop to Telegram"
+msgstr "Подключите свой магазин к Telegram"
+
+#. Description of the plugin
+msgid ""
+"Connect your WooCommerce store to Telegram: product catalog, orders, booking "
+"and payments via Telegram bot"
+msgstr ""
+"Подключите ваш магазин WooCommerce к Telegram: каталог товаров, заказы, "
+"бронирование и оплата через Telegram-бот"
+
+#: exts/support/app.php:468
+msgid "Contact customer about order"
+msgstr "Связаться с клиентом по поводу заказа"
+
+#: botoscope.php:473
+msgid "Content"
+msgstr "Содержание"
+
+#: exts/products/views/single-product.php:36
+#: exts/products/views/single-product-variation.php:21
+#: exts/broadcast/views/sidebar-broadcast-message.php:18
+msgid "correct grammar"
+msgstr "исправить грамматику"
+
+#: exts/business_in_pocket/app.php:255
+msgid "Coupon applied"
+msgstr "Купон применен"
+
+#: classes/extensions.php:61 exts/coupons/app.php:32
+msgid "Coupons"
+msgstr "Купоны"
+
+#: botoscope.php:621 views/sidebar-create-taxonomy.php:25
+#: views/sidebar-create-attribute.php:25 exts/coupons/app.php:317
+#: exts/advertising/app.php:202 exts/broadcast/app.php:85
+#: exts/elogios/app.php:143
+msgid "Create"
+msgstr "Создать"
+
+#: exts/booking/app.php:498
+msgid "Create disposable slot"
+msgstr "Создать одноразовый слот"
+
+#: botoscope.php:623
+msgid "Create meta field"
+msgstr "Создать метаполе"
+
+#: botoscope.php:629
+msgid "Create meta pack"
+msgstr "Создать метапакет"
+
+#: exts/products/app.php:2631
+msgid "Create product"
+msgstr "Создать товар"
+
+#: classes/taxonomies.php:709
+msgid "Create product attribute"
+msgstr "Создать атрибут товара"
+
+#: classes/taxonomies.php:710
+msgid "Create product taxonomy"
+msgstr "Создать таксономию товара"
+
+#: classes/taxonomies.php:705
+msgid "Create term"
+msgstr "Создать термин"
+
+#. %s: bot name
+#: rest/orders.php:654
+#, php-format
+msgid "created by Botoscope user: %s"
+msgstr "создано пользователем Botoscope: %s"
+
+#: botoscope.php:605
+msgid "Currency"
+msgstr "Валюта"
+
+#: classes/controls.php:61
+msgid "Custom text to display in the order footer"
+msgstr ""
+"Текст, который будет отображаться в нижнем колонтитуле заказа (настраиваемый "
+"текст)."
+
+#: classes/controls.php:56
+msgid "Custom text to display in the order header"
+msgstr ""
+"Текст, который будет отображаться в заголовке заказа (настраиваемый текст)."
+
+#: exts/business_in_pocket/views/chat.php:56
+msgid "Customer"
+msgstr "Клиент"
+
+#: botoscope.php:534
+msgid "Customized"
+msgstr "Настроенный"
+
+#: botoscope.php:468
+msgid "Date"
+msgstr "Дата"
+
+#: classes/taxonomies.php:683
+msgid "Deactivate all terms"
+msgstr "Отключить все термины"
+
+#: botoscope.php:651
+msgid "Deactivated"
+msgstr "Деактивировано"
+
+#: botoscope.php:683
+msgid "Dec"
+msgstr "Дек"
+
+#: botoscope.php:669
+msgid "December"
+msgstr "Декабрь"
+
+#: botoscope.php:478
+msgid "Default"
+msgstr "умолч."
+
+#: classes/controls.php:22
+msgid "Default language"
+msgstr "Язык по умолчанию"
+
+#: classes/controls.php:24
+msgid "Default system language"
+msgstr "Язык системы по умолчанию"
+
+#: botoscope.php:483 views/sidebar-edit-taxonomy.php:27
+msgid "Delete"
+msgstr "Удалить"
+
+#: classes/controls.php:127
+msgid "Delete products without confirmation"
+msgstr "Удалить товары без подтверждения"
+
+#: classes/controls.php:129
+msgid "Delete products without confirmation in the admin panel"
+msgstr "Удаление товаров без подтверждения в панели администратора."
+
+#: exts/products/app.php:2713
+msgid "Deleted Products"
+msgstr "Удалённые товары"
+
+#: classes/extensions.php:132
+msgid "Deliver your message. Engage your audience. Instantly."
+msgstr "Донесите свое сообщение. Привлеките свою аудиторию. Мгновенно."
+
+#: exts/shipping/app.php:315
+msgid "Delivery by courier"
+msgstr "Доставка курьером"
+
+#: botoscope.php:559
+msgid "delivery methods"
+msgstr "методы доставки"
+
+#: botoscope.php:480 exts/products/views/single-product.php:32
+#: exts/products/views/single-product-variation.php:17
+msgid "Description"
+msgstr "Описание"
+
+#: botoscope.php:518 exts/products/views/single-product.php:81
+msgid "Details"
+msgstr "Подробные сведения"
+
+#: classes/controls.php:70
+msgid "Disable cart and checkout"
+msgstr "Отключить корзину и оформление заказа"
+
+#: classes/controls.php:100
+#| msgid "Disable comments step on checkout"
+msgid "Disable comments on checkout"
+msgstr "Отключить комментарии при оформлении заказа"
+
+#: classes/controls.php:103
+msgid "Disable the comments step during checkout"
+msgstr "Отключить этап комментариев при оформлении заказа"
+
+#: rest/orders.php:640
+msgid "Discount"
+msgstr "Скидка"
+
+#: botoscope.php:512
+msgid "Display"
+msgstr "Дисплей"
+
+#: classes/controls.php:91
+msgid "Display a Privacy Policy button during checkout and in the Help section"
+msgstr ""
+"Показать кнопку Политики конфиденциальности при оформлении заказа и в "
+"разделе Помощь"
+
+#: classes/controls.php:85
+msgid "Display a Refund Policy button during checkout and in the Help section"
+msgstr ""
+"Показать кнопку Политики возврата при оформлении заказа и в разделе Помощь"
+
+#: classes/controls.php:97
+msgid ""
+"Display a Shipping Policy button during checkout and in the Help section"
+msgstr ""
+"Показать кнопку Политики доставки при оформлении заказа и в разделе Помощь"
+
+#: classes/controls.php:67
+msgid ""
+"Display all products when the bot starts, instead of category navigation."
+msgstr "Отображать все товары при запуске бота вместо навигации по категориям."
+
+#: classes/controls.php:124 classes/controls.php:183
+msgid "Display botoscope button in the top admin menu"
+msgstr "Показать кнопку Botoscope в верхнем меню администратора"
+
+#: exts/b2b/app.php:28
+msgid "Display quantity adjustment button in cart item"
+msgstr "Отображать кнопку изменения количества в товаре корзины"
+
+#: exts/products/views/single-product.php:284
+msgid "Do not display price under media gallery"
+msgstr "Не отображать цену под медиагалереей"
+
+#: botoscope.php:217 views/options.php:50
+msgid "Documentation"
+msgstr "Документация"
+
+#: botoscope.php:567
+msgid "Done"
+msgstr "Сделано"
+
+#. 1: synced count, 2: total count
+#: exts/shopify_sync/app.php:94
+#, php-format
+msgid "Done! Synced %1$s of %2$s products."
+msgstr "Готово! Синхронизировано %1$s из %2$s товаров."
+
+#: botoscope.php:641 classes/taxonomies.php:708
+msgid "Edit"
+msgstr "Редактировать"
+
+#: classes/extensions.php:87 exts/elogios/app.php:32
+msgid "Elogios"
+msgstr "Комплименты"
+
+#: views/sidebar-create-attribute.php:15
+msgid "Enter attribute name"
+msgstr "Введите имя атрибута"
+
+#: botoscope.php:618
+msgid "Enter HTML code"
+msgstr "Введите HTML-код"
+
+#: views/sidebar-edit-taxonomy.php:14
+msgid "Enter new name"
+msgstr "Введите новое имя"
+
+#: exts/products/views/single-product.php:20
+msgid "Enter product title"
+msgstr "Введите название товара"
+
+#: views/sidebar-create-taxonomy.php:15
+msgid "Enter taxonomy name"
+msgstr "Введите название таксономии"
+
+#: botoscope.php:610
+msgid "Enter the ID of the group product. Enter 0 to detach"
+msgstr "Введите ID группового товара. Введите 0 для отсоединения"
+
+#: botoscope.php:608
+msgid "Enter the number of products you want to create"
+msgstr "Введите количество товаров, которые вы хотите создать"
+
+#: exts/shipping/app.php:90
+msgid "enter your address and phone"
+msgstr "введите свой адрес и телефон"
+
+#: classes/controls.php:50
+msgid "Enter your shop name here to display it in your shop orders"
+msgstr "Введите название вашего магазина для отображения в заказах"
+
+#: views/options.php:68
+msgid ""
+"Error: The PHP extension \"cURL\" is not installed or enabled. Please enable "
+"it in your hosting configuration to allow Botoscope to make outgoing HTTP "
+"requests."
+msgstr ""
+"Ошибка: расширение PHP \"cURL\" не установлено или не включено. Включите его "
+"в настройках хостинга, чтобы Botoscope мог отправлять исходящие HTTP-запросы."
+
+#: views/options.php:62
+msgid ""
+"Error: The PHP setting \"allow_url_fopen\" is disabled. Please enable it in "
+"your hosting configuration to allow Botoscope to make outgoing HTTP requests."
+msgstr ""
+"Ошибка: PHP-параметр «allow_url_fopen» отключен. Включите его в настройках "
+"хостинга, чтобы Botoscope мог отправлять исходящие HTTP-запросы."
+
+#: exts/sizecharts/app.php:252
+msgid "EXAMPLE brand name"
+msgstr "ПРИМЕР фирменного наименования"
+
+#: botoscope.php:524
+msgid "Excluded Products"
+msgstr "Исключенные продукты"
+
+#: botoscope.php:539
+msgid "Expiry"
+msgstr "Срок"
+
+#: views/options.php:19
+msgid "Extensions"
+msgstr "Расширения"
+
+#: botoscope.php:592 exts/products/app.php:42
+msgid "External"
+msgstr "Внешний"
+
+#: exts/products/views/single-product.php:184
+msgid "External link"
+msgstr "Внешняя ссылка"
+
+#: exts/products/app.php:1456
+msgid "Failed to update categories"
+msgstr "Не удалось обновить категории"
+
+#: botoscope.php:673
+msgid "Feb"
+msgstr "Фев"
+
+#: botoscope.php:659
+msgid "February"
+msgstr "Февраль"
+
+#: classes/extensions.php:162
+msgid "Feel in control — instant shop notifications"
+msgstr "Держите всё под контролем — мгновенные уведомления магазина"
+
+#: botoscope.php:564
+msgid "File URL"
+msgstr "URL-адрес файла"
+
+#. %d: count
+#. %d: files count
+#: exts/products/views/single-product.php:158
+#: exts/products/views/single-product-variation.php:93
+msgid "Files (%d)"
+msgstr "Файлы (%d)"
+
+#: botoscope.php:606
+msgid "Filter"
+msgstr "Фильтр"
+
+#: botoscope.php:531
+msgid "Finish"
+msgstr "Финиш"
+
+#: exts/booking/app.php:275
+msgid "Finish hour"
+msgstr "Час окончания"
+
+#: exts/booking/app.php:276
+msgid "Finish minute"
+msgstr "Финишная минута"
+
+#: botoscope.php:553
+msgid "fixed to cart"
+msgstr "Фиксированная сумма на корзину"
+
+#: botoscope.php:555
+msgid "fixed to selected product"
+msgstr "Фиксированная сумма на выбранный товар"
+
+#: botoscope.php:514
+msgid "Formula"
+msgstr "Формула"
+
+#: botoscope.php:520
+msgid "Formulas"
+msgstr "Формулы"
+
+#: botoscope.php:521
+msgid "Formulas for"
+msgstr "Формулы для"
+
+#. %s: products count
+#: exts/shopify_sync/app.php:92
+#, php-format
+msgid "Found %s products. Syncing..."
+msgstr "Найдено %s товаров. Синхронизация..."
+
+#: botoscope.php:690
+msgid "Fr"
+msgstr "Пт"
+
+#: exts/shipping/app.php:321 exts/shipping/app.php:324
+msgid "Free shipping"
+msgstr "Бесплатная доставка"
+
+#: views/options.php:35
+msgid "free version"
+msgstr "Бесплатная версия"
+
+#. 1: max products free, 2: max visitors, 3: max booking slots, 4: reconnect days, 5: max products paid
+#: classes/controls.php:417
+#, php-format
+#| msgid ""
+#| "Free version includes: up to %s products, up to %s unique visitors per "
+#| "month, up to %s booking slots, \"Powered by Botoscope\" branding in your "
+#| "Telegram store, and manual reconnection required every %s days. Upgrade "
+#| "to the full version for up to %s products, unlimited visitors, unlimited "
+#| "booking slots, no branding, and uninterrupted connection."
+msgid ""
+"Free version includes: up to %1$s products, up to %2$s unique visitors per "
+"month, up to %3$s booking slots, \"Powered by Botoscope\" branding in your "
+"Telegram store, and manual reconnection required every %4$s days. Upgrade to "
+"the full version for up to %5$s products, unlimited visitors, unlimited "
+"booking slots, no branding, and uninterrupted connection."
+msgstr ""
+"Бесплатная версия включает: до %1$s товаров, до %2$s уникальных посетителей "
+"в месяц, до %3$s слотов бронирования, брендинг \"Powered by Botoscope\" в "
+"вашем Telegram-магазине и необходимость ручного переподключения каждые %4$s "
+"дней. Перейдите на полную версию: до %5$s товаров, неограниченное количество "
+"посетителей, неограниченные слоты бронирования, без брендинга и непрерывное "
+"подключение."
+
+#. %s: number of booking slots
+#: exts/booking/app.php:453
+#, php-format
+msgid ""
+"Free version: only the first %s booking slots are available in your Telegram "
+"store"
+msgstr ""
+"Бесплатная версия: в вашем Telegram-магазине доступны только первые %s "
+"слотов бронирования"
+
+#: exts/booking/app.php:281
+msgid "Fri"
+msgstr "Пт"
+
+#: botoscope.php:550 classes/controls.php:223
+msgid "Full data synchronization with Telegram"
+msgstr "Полная синхронизация данных с Telegram."
+
+#: botoscope.php:603
+msgid "Gallery"
+msgstr "Галерея"
+
+#: exts/products/views/single-product.php:36
+#: exts/products/views/single-product-variation.php:21
+#: exts/broadcast/views/sidebar-broadcast-message.php:18
+msgid "generate"
+msgstr "сгенерировать"
+
+#: exts/products/app.php:2635
+msgid "Generate multiple"
+msgstr "Создать несколько"
+
+#: exts/business_in_pocket/app.php:34
+msgid ""
+"Get notifications about new customer messages in your Business-in-Pocket bot"
+msgstr ""
+"Получайте уведомления о новых сообщениях клиентов в вашем Business-in-Pocket"
+
+#: exts/business_in_pocket/app.php:26
+msgid "Get notifications about new orders in your Business-in-Pocket bot"
+msgstr "Получайте уведомления о новых заказах в вашем Business-in-Pocket"
+
+#: exts/shopify_sync/app.php:91
+msgid "Getting product count..."
+msgstr "Получение количества товаров..."
+
+#: botoscope.php:593 exts/products/app.php:43
+msgid "Grouped"
+msgstr "Групповой"
+
+#. %s: product limit number
+#: classes/controls.php:421
+#, php-format
+msgid ""
+"Grouped products on free version: Products included in this group may not "
+"sync to the bot if they exceed the %s-product limit."
+msgstr ""
+"Сгруппированные товары в бесплатной версии: товары, входящие в эту группу, "
+"могут не синхронизироваться с ботом, если превысят лимит в %s товаров."
+
+#: botoscope.php:526
+msgid "Groups for"
+msgstr "Группы для"
+
+#: classes/controls.php:134 classes/controls.php:188
+msgid ""
+"Harness the power of AI to generate product descriptions and translations"
+msgstr "Используйте мощь ИИ для генерации описаний товаров и переводов"
+
+#: botoscope.php:486
+msgid "Height"
+msgstr "Высота"
+
+#: botoscope.php:652
+msgid "Help"
+msgstr "Помощь"
+
+#: botoscope.php:1053
+msgid "Here you can specify the text of your privacy policy"
+msgstr "Здесь вы можете указать текст вашей политики конфиденциальности"
+
+#: botoscope.php:1039
+msgid "Here you can specify the text of your return policy"
+msgstr "Здесь вы можете указать текст вашей политики возврата"
+
+#: botoscope.php:1067
+msgid "Here you can specify the text of your shipping policy"
+msgstr "Здесь вы можете указать текст вашей политики доставки"
+
+#: botoscope.php:654 exts/products/app.php:2666
+msgid "Hide all products in your Telegram store?"
+msgstr "Скрыть все товары в вашем Telegram-магазине?"
+
+#: botoscope.php:491
+msgid "Hip"
+msgstr "Бедро"
+
+#: exts/booking/app.php:284
+msgid "Hold"
+msgstr "Держать"
+
+#: exts/booking/app.php:285
+msgid "Hold customer to slot"
+msgstr "Удерживать клиента в слоте"
+
+#: classes/controls.php:108
+msgid ""
+"How many buttons to display in the categories section of your Telegram shop"
+msgstr "Сколько кнопок отображать в разделе категорий вашего Telegram-магазина"
+
+#. URI of the plugin
+msgid "https://botoscope.com/"
+msgstr "https://botoscope.com/"
+
+#. Author URI of the plugin
+msgid "https://botoscope.com/about"
+msgstr "https://botoscope.com/ru/about"
+
+#: botoscope.php:515
+msgid "Icon"
+msgstr "Значок"
+
+#: exts/products/views/single-product.php:212
+msgid "Ignore Stock for Collection"
+msgstr "Игнорировать запас для коллекции"
+
+#: exts/business_in_pocket/app.php:31
+msgid "In pocket: notify about customer messages"
+msgstr "В кармане: уведомления о сообщениях клиентов"
+
+#: exts/business_in_pocket/app.php:40
+msgid "In pocket: notify about low stock"
+msgstr "В кармане: уведомления о низком остатке"
+
+#: exts/business_in_pocket/app.php:23
+msgid "In pocket: notify about new orders"
+msgstr "В кармане: уведомления о новых заказах"
+
+#: botoscope.php:557 exts/products/views/single-product.php:249
+#: exts/products/views/single-product-variation.php:126
+msgid "in stock"
+msgstr "в наличии"
+
+#: classes/controls.php:35
+msgid "Information displayed in the Help section of your Telegram shop"
+msgstr "Информация, отображаемая в разделе Помощь вашего Telegram-магазина"
+
+#: botoscope.php:513
+msgid "Inline"
+msgstr "Встроенный"
+
+#: botoscope.php:617
+msgid "Insert HTML"
+msgstr "Вставить HTML"
+
+#: botoscope.php:459
+msgid "Interaction"
+msgstr "Взаимодействие"
+
+#: classes/extensions.php:80
+msgid "Interaction with your customers"
+msgstr "Взаимодействие с вашими клиентами"
+
+#: exts/interface_translations/app.php:31
+msgid "Interface"
+msgstr "Интерфейс"
+
+#: classes/extensions.php:114
+msgid "Interface translations"
+msgstr "Переводы интерфейса"
+
+#: botoscope.php:672
+msgid "Jan"
+msgstr "Янв"
+
+#: botoscope.php:658
+msgid "January"
+msgstr "Январь"
+
+#: botoscope.php:678
+msgid "Jul"
+msgstr "Июл"
+
+#: botoscope.php:664
+msgid "July"
+msgstr "Июль"
+
+#: botoscope.php:677
+msgid "Jun"
+msgstr "Июн"
+
+#: botoscope.php:663
+msgid "June"
+msgstr "Июнь"
+
+#: botoscope.php:532
+msgid "Key"
+msgstr "Ключ"
+
+#: botoscope.php:585
+msgid ""
+"Kindly select the product attributes and their corresponding terms first, "
+"and then click save button"
+msgstr ""
+"Сначала выберите атрибуты товара и соответствующие им термины, а затем "
+"нажмите кнопку «Сохранить»."
+
+#: classes/controls.php:27
+msgid "Languages"
+msgstr "Языки"
+
+#: classes/controls.php:29
+msgid "Languages available in your Telegram shop"
+msgstr "Доступные языки в вашем Telegram-магазине"
+
+#: exts/shopify_sync/app.php:1161
+msgid "Last sync"
+msgstr "Последняя синхронизация"
+
+#: botoscope.php:493
+msgid "Leg length from waist"
+msgstr "Длина ног от талии"
+
+#: botoscope.php:537
+msgid "Limit"
+msgstr "Предел"
+
+#: botoscope.php:630
+msgid "Load meta pack"
+msgstr "Загрузить метапакет"
+
+#: botoscope.php:566
+msgid "Loading ..."
+msgstr "Загрузка..."
+
+#: botoscope.php:607
+msgid "Log out"
+msgstr "Выйти"
+
+#: exts/business_in_pocket/app.php:432
+msgid "Low stock alert"
+msgstr "Оповещение о низком уровне запасов"
+
+#. %d: low stock threshold
+#: exts/business_in_pocket/app.php:458
+msgid "Low stock threshold: %d"
+msgstr "Низкий порог запаса: %d"
+
+#: botoscope.php:653 exts/products/app.php:2641
+msgid "Make all published products visible in your Telegram store?"
+msgstr "Сделать все опубликованные товары видимыми в вашем Telegram-магазине?"
+
+#: botoscope.php:476
+msgid "Manage"
+msgstr "Управлять"
+
+#: botoscope.php:477
+msgid "Manage products"
+msgstr "Управление продуктами"
+
+#: exts/products/views/single-product.php:239
+#: exts/products/views/single-product-variation.php:116
+msgid "Manage stock"
+msgstr "Управление запасами"
+
+#: classes/extensions.php:105
+#| msgid "Manage the display of your product attributes in telegram bot"
+msgid "Manage the display of your product attributes in telegram shop"
+msgstr "Управляйте отображением атрибутов ваших товаров в Telegram-магазине"
+
+#: classes/extensions.php:115
+#| msgid "Managing telegram bot text variables"
+msgid "Managing telegram shop text variables"
+msgstr "Управление текстовыми переменными telegram-магазина"
+
+#: botoscope.php:674
+msgid "Mar"
+msgstr "Мар"
+
+#: botoscope.php:660
+msgid "March"
+msgstr "Март"
+
+#: classes/extensions.php:70 exts/marketing/app.php:25
+msgid "Marketing"
+msgstr "Маркетинг"
+
+#: classes/extensions.php:71
+msgid "Marketing companies and strategies"
+msgstr "Маркетинговые компании и стратегии"
+
+#: botoscope.php:522
+msgid "Marketing strategies ext should be activated!"
+msgstr "Маркетинговые стратегии ext должны быть активированы!"
+
+#: botoscope.php:538
+msgid "Maximum"
+msgstr "Макс."
+
+#: botoscope.php:662 botoscope.php:676
+msgid "May"
+msgstr "Май"
+
+#: botoscope.php:627
+msgid "Measure"
+msgstr "Мера"
+
+#: botoscope.php:504
+msgid "Media"
+msgstr "Медиафайлы"
+
+#: exts/products/views/single-product-variation.php:69
+msgid "Media Casting"
+msgstr "Медиа-кастинг"
+
+#: botoscope.php:643
+msgid "Message"
+msgstr "Сообщение"
+
+#: botoscope.php:462
+msgid "Messages"
+msgstr "Сообщения"
+
+#: botoscope.php:470
+msgid "Messages for"
+msgstr "Сообщения для"
+
+#: botoscope.php:471
+msgid "Messages for order"
+msgstr "Сообщения для заказа"
+
+#: botoscope.php:631
+msgid "Meta packs"
+msgstr "Метапакеты"
+
+#: exts/b2b/app.php:23
+msgid "Min cart amount to pay"
+msgstr "Минимальная сумма корзины для оплаты"
+
+#: exts/products/views/single-product.php:279
+#: exts/products/views/single-product-variation.php:144
+msgid "Minimal cart count"
+msgstr "Минимальное количество в корзине"
+
+#: botoscope.php:497
+msgid "Minimum"
+msgstr "Мин."
+
+#: botoscope.php:686
+msgid "Mo"
+msgstr "Пн"
+
+#: exts/booking/app.php:277
+msgid "Mon"
+msgstr "Пн"
+
+#: botoscope.php:516
+msgid "Name"
+msgstr "Имя"
+
+#: botoscope.php:487
+msgid "Neck"
+msgstr "Шея"
+
+#: exts/shopify_sync/app.php:1164
+msgid "Never synced"
+msgstr "Никогда не синхронизировалось"
+
+#: botoscope.php:580
+msgid "New attribute"
+msgstr "Новый атрибут"
+
+#: exts/marketing/classes/marketing_campaigns_app.php:369
+#| msgid "New marketing company"
+msgid "New marketing campaign"
+msgstr "Новая маркетинговая компания"
+
+#: exts/marketing/classes/marketing_strategies_app.php:163
+msgid "New Marketing strategy"
+msgstr "Новая маркетинговая стратегия"
+
+#: exts/products/classes/meta.php:327
+msgid "new meta field"
+msgstr "новое метаполе"
+
+#. %d: order number
+#: exts/business_in_pocket/app.php:215
+msgid "New order #%d"
+msgstr "Новый заказ #%d"
+
+#: exts/pickup_points/app.php:154
+msgid "New pickup point"
+msgstr "Новый пункт самовывоза"
+
+#: exts/products/app.php:1288 exts/products/app.php:1300
+msgid "New product"
+msgstr "Новый товар"
+
+#: exts/product_attributes/app.php:210
+msgid "New product attribute"
+msgstr "Новый атрибут товара"
+
+#: exts/shipping/app.php:257
+msgid "New shipping method"
+msgstr "Новый способ доставки"
+
+#: exts/sizecharts/app.php:204
+msgid "New sizechart"
+msgstr "Новая таблица размеров"
+
+#: exts/sizecharts/classes/index.php:136
+msgid "New sizechart item"
+msgstr "Новый элемент таблицы размеров"
+
+#: botoscope.php:581
+msgid "New taxonomy"
+msgstr "Новая таксономия"
+
+#: botoscope.php:616
+msgid "No"
+msgstr "Нет"
+
+#: exts/products/views/single-product.php:115
+#: exts/products/views/single-product.php:217
+#: exts/products/views/single-product.php:242
+#: exts/products/views/single-product.php:286
+#: exts/products/views/single-product-variation.php:119
+msgid "no"
+msgstr "нет"
+
+#: botoscope.php:565
+msgid "No data"
+msgstr "Нет данных"
+
+#: classes/extensions.php:519
+msgid "No description"
+msgstr "Без описания"
+
+#: botoscope.php:579
+msgid "not selected"
+msgstr "не выбрано"
+
+#: exts/business_in_pocket/app.php:262
+msgid "Note"
+msgstr "Примечание"
+
+#: exts/business_in_pocket/app.php:43
+msgid "Notify my Business-in-Pocket bot about low stock"
+msgstr "Уведомлять мой Business-in-Pocket о низком остатке товаров"
+
+#: botoscope.php:682
+msgid "Nov"
+msgstr "Нояб"
+
+#: botoscope.php:668
+msgid "November"
+msgstr "Ноябрь"
+
+#: botoscope.php:681
+msgid "Oct"
+msgstr "Окт"
+
+#: botoscope.php:667
+msgid "October"
+msgstr "Октябрь"
+
+#: classes/extensions.php:62
+msgid "Offer discounts to your customers"
+msgstr "Предлагайте скидки вашим клиентам"
+
+#: classes/controls.php:132 classes/controls.php:186
+msgid "Openai API key"
+msgstr "Ключ API Openai"
+
+#: botoscope.php:495 rest/orders.php:328
+msgid "Order"
+msgstr "Послед."
+
+#. %s: order ID
+#: exts/support/app.php:188 exts/support/app.php:324
+#, php-format
+msgid "Order #%s"
+msgstr "Заказ #%s"
+
+#: classes/controls.php:59
+msgid "Order footer"
+msgstr "Нижний колонтитул заказа"
+
+#: classes/controls.php:53
+msgid "Order header"
+msgstr "Заголовок заказа"
+
+#: rest/orders.php:287
+msgid "Order is paid"
+msgstr "Заказ оплачен"
+
+#: exts/business_in_pocket/app.php:228
+msgid "Order items"
+msgstr "Предметы"
+
+#: classes/controls.php:43
+msgid "Order logo"
+msgstr "Логотип заказа"
+
+#: exts/business_in_pocket/app.php:287
+msgid "Order total"
+msgstr "Итого"
+
+#: botoscope.php:601
+msgid "Orders"
+msgstr "Заказы"
+
+#: botoscope.php:533
+msgid "Original"
+msgstr "Оригинал"
+
+#: exts/shipping/app.php:318
+msgid "Our personal courier service"
+msgstr "Наша персональная курьерская служба"
+
+#: botoscope.php:558 exts/products/views/single-product.php:250
+#: exts/products/views/single-product-variation.php:127
+msgid "out of stock"
+msgstr "нет в наличии"
+
+#: exts/business_in_pocket/app.php:430
+msgid "Out of stock alert"
+msgstr "Оповещение о том, что нет в наличии"
+
+#. 1: product ID, 2: creation date
+#: exts/products/classes/meta_pack.php:78
+#, php-format
+#| msgid "Pack has been created from product #%s (%s)"
+msgid "Pack has been created from product #%1$s (%2$s)"
+msgstr "Мета-пакет создан из товара #%1$s (%2$s)"
+
+#: botoscope.php:637
+msgid "Pages"
+msgstr "Страницы"
+
+#. %d: parent product ID
+#: exts/business_in_pocket/app.php:446
+msgid "Parent ID: %d"
+msgstr "ID родителя: %d"
+
+#: exts/products/views/single-product.php:60
+msgid "paste link to audio mp3 or m4a"
+msgstr "вставьте ссылку на аудио mp3 или m4a"
+
+#: views/options.php:16
+msgid "Payment"
+msgstr "Оплата"
+
+#. %s: payment gateway name
+#: rest/orders.php:313
+#, php-format
+msgid "Payment completed successfully through %s"
+msgstr "Платеж успешно завершен через %s"
+
+#: exts/business_in_pocket/app.php:221
+msgid "Payment method"
+msgstr "Способ оплаты"
+
+#: rest/orders.php:306
+msgid "Payment was successful. Please close this window!"
+msgstr "Оплата прошла успешно. Пожалуйста, закройте это окно!"
+
+#: botoscope.php:552
+msgid "percent to cart"
+msgstr "Процент на корзину"
+
+#: botoscope.php:554
+msgid "percent to selected product"
+msgstr "Процент на выбранный товар"
+
+#: exts/products/views/single-product-variation.php:66
+msgid "Physical"
+msgstr "Физический"
+
+#: exts/shipping/app.php:307 exts/pickup_points/app.php:35
+msgid "Pickup"
+msgstr "Точки"
+
+#: botoscope.php:583
+msgid "Place into settings openai API key!"
+msgstr "Поместите в настройки ключ API OpenAI!"
+
+#: exts/shopify_sync/app.php:1154
+msgid ""
+"Please configure Shopify credentials in the Settings tab to enable sync."
+msgstr ""
+"Пожалуйста, настройте учётные данные Shopify во вкладке Настройки, чтобы "
+"включить синхронизацию."
+
+#: botoscope.php:540
+msgid ""
+"Please enter 3 or more characters to start searching, or type an product ID "
+"(e.g. 123 or v123(for variations of variable product))..."
+msgstr ""
+"Введите 3 или более символов, чтобы начать поиск, или введите идентификатор "
+"продукта (например, 123 или v123 (для вариаций переменного продукта))..."
+
+#: botoscope.php:465
+msgid "Please enter order number ..."
+msgstr "Пожалуйста, введите номер заказа..."
+
+#: botoscope.php:655
+msgid "Please publish the product first!"
+msgstr "Сначала опубликуйте товар!"
+
+#: exts/business_in_pocket/app.php:462
+msgid "Please restock soon."
+msgstr "Пожалуйста, пополните запасы в ближайшее время."
+
+#: botoscope.php:496
+msgid "Price"
+msgstr "Цена"
+
+#: botoscope.php:639
+msgid "Privacy policy"
+msgstr "Политика конфиденциальности"
+
+#: classes/controls.php:117
+msgid "Private access key"
+msgstr "Закрытый ключ доступа"
+
+#: botoscope.php:498
+msgid "Product"
+msgstr "Товар"
+
+#: classes/extensions.php:104 exts/product_attributes/app.php:37
+#: exts/products/views/single-product.php:189
+msgid "Product attributes"
+msgstr "Атрибуты товара"
+
+#: botoscope.php:499
+msgid "Product downloads"
+msgstr "Загрузки товара"
+
+#. %d: product ID
+#: exts/business_in_pocket/app.php:442
+msgid "Product ID: %d"
+msgstr "ID продукта: %d"
+
+#: botoscope.php:625
+msgid "Product meta"
+msgstr "Мета-данные товара"
+
+#: exts/products/views/single-product.php:19
+msgid "Product Title"
+msgstr "Название товара"
+
+#: exts/products/views/single-product.php:131
+msgid "Product type"
+msgstr "Тип товара"
+
+#. %s: product title
+#: exts/business_in_pocket/app.php:440
+#, php-format
+msgid "Product: %s"
+msgstr "Продукт: %s"
+
+#: botoscope.php:523 classes/extensions.php:20 exts/products/app.php:50
+#: exts/shopify_sync/app.php:1169
+msgid "Products"
+msgstr "Товары"
+
+#. %d: count
+#: exts/products/views/single-product.php:168
+msgid "Products (%d)"
+msgstr "Товары (%d)"
+
+#: classes/extensions.php:42
+msgid "Products delivering"
+msgstr "Поставка товаров"
+
+#: botoscope.php:647
+msgid "Products export"
+msgstr "Экспорт товаров"
+
+#: botoscope.php:525
+msgid "Products for"
+msgstr "Товары для"
+
+#: botoscope.php:646
+msgid "Products import"
+msgstr "Импорт товаров"
+
+#: classes/extensions.php:21
+msgid "Products manager"
+msgstr "Менеджер товаров"
+
+#: botoscope.php:626
+msgid "Products meta gallery"
+msgstr "Метагалерея товаров"
+
+#: exts/products/views/single-product.php:113
+msgid "Published"
+msgstr "Опубликовано"
+
+#. %d: stock quantity
+#: exts/business_in_pocket/app.php:455 exts/business_in_pocket/app.php:465
+msgid "Quantity left: %d"
+msgstr "Осталось: %d"
+
+#: exts/products/views/single-product.php:274
+#: exts/products/views/single-product-variation.php:139
+msgid "Quantity step"
+msgstr "Шаг количества"
+
+#: botoscope.php:30
+msgid "Read Setup Instructions"
+msgstr "Прочитать инструкции по настройке"
+
+#: exts/products/views/single-product.php:220
+msgid ""
+"Recommend buying the full collection even if some items are out of stock"
+msgstr ""
+"Рекомендуем купить полную коллекцию, даже если некоторые товары отсутствуют "
+"в наличии."
+
+#: botoscope.php:638
+msgid "Refund policy"
+msgstr "Политика возврата средств"
+
+#: exts/shopify_sync/app.php:90
+msgid "Registering webhooks..."
+msgstr "Регистрация вебхуков..."
+
+#: exts/products/views/single-product.php:224
+#: exts/products/views/single-product-variation.php:99
+msgid "Regular price"
+msgstr "Обычная цена"
+
+#. %d: order number
+#: exts/business_in_pocket/app.php:96
+msgid "Related to order #%d"
+msgstr "Относится к заказу №%d"
+
+#. 1: product ID, 2: product title
+#: exts/business_in_pocket/app.php:107
+#, php-format
+#| msgid "Related to product #%d \"%s\""
+msgid "Related to product #%1$d \"%2$s\""
+msgstr "Связано с товаром #%1$d \"%2$s\""
+
+#: botoscope.php:602
+msgid "Reports"
+msgstr "Отчеты"
+
+#: exts/booking/app.php:444 exts/booking/app.php:472
+msgid "Reservations"
+msgstr "Бронирование"
+
+#: botoscope.php:472
+msgid "Role"
+msgstr "Роль"
+
+#: classes/controls.php:225
+msgid "Run this after a fresh system installation"
+msgstr "Выполните это после свежей установки системы"
+
+#: exts/booking/app.php:445
+msgid "Runtime slots"
+msgstr "Текущийе слоты"
+
+#: botoscope.php:691
+msgid "Sa"
+msgstr "Сб"
+
+#: botoscope.php:505
+msgid "Sale"
+msgstr "Распродажа"
+
+#: exts/products/views/single-product.php:229
+#: exts/products/views/single-product-variation.php:104
+msgid "Sale price"
+msgstr "Цена продажи"
+
+#: botoscope.php:560
+msgid "Sale price should be lower than the regular price!"
+msgstr "Цена распродажи должна быть ниже обычной!"
+
+#: exts/booking/app.php:282
+msgid "Sat"
+msgstr "Сб"
+
+#: views/sidebar-edit-taxonomy.php:26
+#: exts/products/views/single-product.php:108
+#: exts/products/views/single-product.php:299
+#: exts/products/views/single-product-variation.php:59
+#: exts/products/views/single-product-variation.php:150
+#: exts/broadcast/views/sidebar-broadcast-message.php:43
+msgid "Save"
+msgstr "Сохранить"
+
+#: exts/products/views/single-product.php:102
+#: exts/products/views/single-product.php:305
+#: exts/products/views/single-product-variation.php:53
+#: exts/products/views/single-product-variation.php:156
+msgid "Save and close"
+msgstr "Сохранить и закрыть"
+
+#: exts/broadcast/views/sidebar-broadcast-message.php:49
+msgid "Save and Send"
+msgstr "Сохранить и отправить"
+
+#: botoscope.php:562
+msgid "Saved"
+msgstr "Сохранено"
+
+#: botoscope.php:563
+msgid "Saving ..."
+msgstr "Сохранение ..."
+
+#: exts/support/app.php:464
+msgid "search by product title and order id"
+msgstr "поиск по названию товара и ID заказа"
+
+#: botoscope.php:501
+#| msgid "search by title or sku ..."
+msgid "search by title or sku or ID ..."
+msgstr "Поиск по названию, артикулу или идентификатору..."
+
+#: botoscope.php:463
+msgid "Search orders"
+msgstr "Поиск заказов"
+
+#: botoscope.php:575
+msgid "Select"
+msgstr "Выбирать"
+
+#: botoscope.php:510
+msgid "Select attribute"
+msgstr "Выберите атрибут"
+
+#: exts/products/views/single-product.php:61
+msgid "Select audio"
+msgstr "Выбрать аудио"
+
+#: botoscope.php:611
+msgid "Select audio file"
+msgstr "Выберите аудиофайл"
+
+#: botoscope.php:528
+msgid "select date"
+msgstr "выберите дату"
+
+#: botoscope.php:613
+msgid "Select image"
+msgstr "Выбрать изображение"
+
+#: botoscope.php:503
+msgid "Select media for the product"
+msgstr "Выберите носитель для товара"
+
+#: botoscope.php:573
+msgid "Select possible variation"
+msgstr "Выберите возможный вариант"
+
+#: exts/products/views/single-product.php:265
+msgid "Select product brand"
+msgstr "Выберите марку товара"
+
+#: botoscope.php:587
+msgid "Select product category"
+msgstr "Выберите категорию товара"
+
+#: botoscope.php:508
+msgid "select product category ..."
+msgstr "выберите категорию товара ..."
+
+#: botoscope.php:586
+msgid "Select product type"
+msgstr "Выберите тип товара"
+
+#: botoscope.php:527
+msgid "Select strategia"
+msgstr "Выберите стратегию"
+
+#: botoscope.php:509
+msgid "select terms"
+msgstr "выберите термины"
+
+#: exts/shipping/app.php:312
+msgid "Self-pickup from our warehouse"
+msgstr "Самовывоз с нашего склада"
+
+#: botoscope.php:556
+#| msgid "send new message"
+msgid "send message"
+msgstr "отправить сообщение"
+
+#: botoscope.php:644 exts/broadcast/views/sidebar-broadcast-message.php:28
+msgid "Sent"
+msgstr "Отправлено"
+
+#: botoscope.php:680
+msgid "Sep"
+msgstr "Сен"
+
+#: botoscope.php:666
+msgid "September"
+msgstr "Сентябрь"
+
+#: classes/controls.php:114
+msgid ""
+"Set a password to access your bot and share it with your customers. This "
+"makes your Telegram shop more private"
+msgstr ""
+"Установите пароль для доступа к вашему Telegram-магазину и поделитесь им с "
+"клиентами. Это сделает ваш Telegram-магазин более приватным"
+
+#: botoscope.php:649
+msgid "set finish"
+msgstr "установить финиш"
+
+#: exts/products/views/single-product.php:292
+msgid "Set publication date"
+msgstr "Установить дату публикации"
+
+#: botoscope.php:648
+msgid "set start"
+msgstr "установить начало"
+
+#: botoscope.php:543
+msgid "Settings"
+msgstr "Настройки"
+
+#: botoscope.php:544
+msgid "Settings for"
+msgstr "Настройки для"
+
+#: botoscope.php:519 classes/extensions.php:41
+#: exts/business_in_pocket/app.php:269 exts/shipping/app.php:36
+msgid "Shipping"
+msgstr "Доставка"
+
+#: exts/business_in_pocket/app.php:282
+msgid "Shipping address"
+msgstr "Адрес доставки"
+
+#: wp_hooks.php:57
+msgid "Shipping amount"
+msgstr "Сумма доставки"
+
+#: exts/business_in_pocket/app.php:276
+msgid "Shipping method"
+msgstr "Способ доставки"
+
+#: botoscope.php:640
+msgid "Shipping policy"
+msgstr "Политика доставки"
+
+#: wp_hooks.php:51
+msgid "Shipping way"
+msgstr "Способ доставки"
+
+#: classes/controls.php:48
+msgid "Shop name in order"
+msgstr "Название магазина в заказе"
+
+#: classes/controls.php:38
+msgid "Shop time zone"
+msgstr "Часовой пояс магазина"
+
+#: classes/extensions.php:148 exts/shopify_sync/app.php:49
+msgid "Shopify Sync"
+msgstr ""
+
+#: botoscope.php:488
+msgid "Shoulder"
+msgstr "Плечо"
+
+#: classes/controls.php:64
+msgid "Show catalog on start"
+msgstr "Показывать каталог при запуске"
+
+#: botoscope.php:633
+msgid "Show on media gallery"
+msgstr "Показать в медиа-галерее"
+
+#: classes/controls.php:88
+msgid "Show privacy policy button"
+msgstr "Показать кнопку политики конфиденциальности"
+
+#: classes/controls.php:82
+msgid "Show refund policy button"
+msgstr "Показать кнопку политики возврата средств"
+
+#: classes/controls.php:94
+msgid "Show shipping policy button"
+msgstr "Показать кнопку политики доставки"
+
+#: botoscope.php:634
+msgid "Show under description"
+msgstr "Показать под описанием"
+
+#: classes/controls.php:76
+msgid "Show View on Website button"
+msgstr "Показать кнопку «Посмотреть на сайте»"
+
+#: botoscope.php:588 exts/products/app.php:38
+msgid "Simple"
+msgstr "Простой"
+
+#: exts/products/app.php:41
+msgid "Simple Media Casting"
+msgstr ""
+
+#: botoscope.php:591
+msgid "Simple media casting"
+msgstr "Простой медиа-кастинг"
+
+#: exts/products/app.php:39
+msgid "Simple Virtual"
+msgstr ""
+
+#: botoscope.php:589
+msgid "Simple virtual"
+msgstr "Простой виртуальный"
+
+#: exts/products/app.php:40
+msgid "Simple Virtual Downloadable"
+msgstr ""
+
+#: botoscope.php:590
+msgid "Simple virtual downloadable"
+msgstr "Простой виртуальный загружаемый"
+
+#: exts/sizecharts/app.php:33
+msgid "Size charts"
+msgstr "Диаграммы размеров"
+
+#: exts/sizecharts/app.php:253
+msgid "Sizes corresponding to brand EXAMPLE"
+msgstr "Размеры, соответствующие ПРИМЕРУ бренда"
+
+#: botoscope.php:506 exts/products/views/single-product.php:121
+#: exts/products/views/single-product-variation.php:133
+msgid "SKU"
+msgstr "АРТИКУЛ"
+
+#. %s: product SKU
+#: exts/business_in_pocket/app.php:450
+#, php-format
+msgid "SKU: %s"
+msgstr "Артикул: %s"
+
+#: exts/booking/app.php:494
+msgid "Slots"
+msgstr "Слоты"
+
+#: botoscope.php:530 classes/taxonomies.php:525
+msgid "Start"
+msgstr "Начать"
+
+#: exts/booking/app.php:273
+msgid "Start hour"
+msgstr "Час начала"
+
+#: exts/booking/app.php:274
+msgid "Start minute"
+msgstr "Начальная минута"
+
+#: botoscope.php:466 exts/business_in_pocket/app.php:225
+msgid "Status"
+msgstr "Статус"
+
+#: exts/products/views/single-product.php:247
+#: exts/products/views/single-product-variation.php:124
+msgid "Stock"
+msgstr "Запас"
+
+#: exts/business_in_pocket/app.php:434
+msgid "Stock alert"
+msgstr "Оповещение о запасах"
+
+#: exts/products/views/single-product.php:234
+#: exts/products/views/single-product-variation.php:111
+msgid "Stock quantity"
+msgstr "Количество на складе"
+
+#. %s: stock status
+#: exts/business_in_pocket/app.php:461 exts/business_in_pocket/app.php:467
+#, php-format
+msgid "Stock status: %s"
+msgstr "Состояние запасов: %s"
+
+#: botoscope.php:529
+#| msgid "Strategia ID"
+msgid "Strategia"
+msgstr "Стратегия"
+
+#: exts/marketing/app.php:43
+msgid "Strategies"
+msgstr "Стратегии"
+
+#: botoscope.php:692
+msgid "Su"
+msgstr "Вс"
+
+#: exts/products/app.php:1371
+msgid "Such sku already attached to another product"
+msgstr "Такой SKU уже привязан к другому продукту"
+
+#: exts/booking/app.php:283
+msgid "Sun"
+msgstr "Вс"
+
+#: classes/extensions.php:79 exts/support/app.php:78
+msgid "Support"
+msgstr "Поддержка"
+
+#: botoscope.php:596
+msgid "Switcher"
+msgstr "Переключатель"
+
+#: exts/shopify_sync/app.php:1176
+msgid "Sync Products"
+msgstr "Синхронизировать товары"
+
+#: classes/extensions.php:149
+msgid ""
+"Sync products from your Shopify store into WooCommerce. Orders from the bot "
+"are pushed back to Shopify automatically."
+msgstr ""
+"Синхронизируйте товары из вашего магазина Shopify в WooCommerce. Заказы из "
+"бота автоматически передаются обратно в Shopify."
+
+#. 1: synced count, 2: total count
+#: exts/shopify_sync/app.php:93
+#, php-format
+msgid "Synced %1$s of %2$s..."
+msgstr "Синхронизировано %1$s из %2$s..."
+
+#: classes/controls.php:213
+msgid "Synchronize all store parameters with the store in Telegram"
+msgstr "Синхронизируйте все параметры магазина с магазином в Telegram."
+
+#: botoscope.php:549 classes/controls.php:217
+msgid "Syncing products with Telegram"
+msgstr "Синхронизация продуктов с Telegram"
+
+#. %s: max products number
+#: botoscope.php:549
+#, php-format
+msgid "Syncing products with Telegram (max. %s products)"
+msgstr "Синхронизация товаров с Telegram (макс. %s товаров)"
+
+#: botoscope.php:551 classes/controls.php:211
+msgid "Syncing site settings with Telegram"
+msgstr "Синхронизация настроек сайта с Telegram"
+
+#: views/options.php:18
+msgid "System Controls"
+msgstr "Система"
+
+#: botoscope.php:481
+msgid "Table"
+msgstr "Таблица"
+
+#: classes/extensions.php:123
+msgid "Tailored options for B2B enterprises"
+msgstr "Индивидуальные решения для B2B-компаний"
+
+#: views/options.php:14
+msgid "Taxonomies"
+msgstr "Таксономии"
+
+#: botoscope.php:986
+msgid "Telegram Stars"
+msgstr ""
+
+#: exts/support/app.php:456
+msgid "Telegram username for support"
+msgstr "Имя пользователя Telegram для поддержки"
+
+#: botoscope.php:500
+msgid "Terms"
+msgstr "Термины"
+
+#: botoscope.php:650
+msgid "Test mode"
+msgstr "Тестовый режим"
+
+#: botoscope.php:689
+msgid "Th"
+msgstr "Чт"
+
+#: botoscope.php:1135
+msgid "Thank you"
+msgstr "Спасибо"
+
+#: botoscope.php:656
+msgid ""
+"The dashboard works best on larger screens. Try opening the site from a "
+"laptop, desktop, or tablet — the interface will be more convenient."
+msgstr ""
+"Панель управления лучше всего работает на больших экранах. Попробуйте "
+"открыть сайт с ноутбука, компьютера или планшета — интерфейс будет удобнее."
+
+#: exts/products/views/single-product-variation.php:140
+#: exts/products/views/single-product-variation.php:145
+msgid "the default value comes from the parent product"
+msgstr "Значение по умолчанию берётся из родительского товара"
+
+#: exts/products/views/single-product.php:275
+#: exts/products/views/single-product.php:280
+msgid "the default value is 1"
+msgstr "Значение по умолчанию — 1"
+
+#. 1: max files count, 2: added files count
+#: botoscope.php:598
+#, php-format
+#| msgid ""
+#| "The maximum allowed number of files is %s. Only %s of the selected files "
+#| "have been added."
+msgid ""
+"The maximum allowed number of files is %1$s. Only %2$s of the selected files "
+"have been added."
+msgstr ""
+"Максимально допустимое количество файлов — %1$s. Добавлено только %2$s из "
+"выбранных файлов."
+
+#: exts/b2b/app.php:25
+msgid "The minimum cart total required to enable checkout and payment"
+msgstr "Минимальная сумма корзины, необходимая для оформления заказа и оплаты"
+
+#: exts/products/views/single-product.php:208
+msgid ""
+"The price of a grouped product is automatically calculated as the sum of the "
+"prices of all its included items. However, if you wish to set a unique price "
+"for the entire group, you can do so. Assigning a custom price can make your "
+"offer more appealing to customers and potentially boost sales."
+msgstr ""
+"Цена группового товара автоматически формируется как сумма цен всех входящих "
+"в него товаров. Однако, если вы хотите назначить уникальную цену для всей "
+"группы, вы можете сделать это. Указание индивидуальной цены может сделать "
+"ваше предложение более привлекательным для покупателей и увеличить продажи."
+
+#: botoscope.php:574
+msgid "There are no free possible combinations"
+msgstr "Нет никаких свободных возможных комбинаций"
+
+#: exts/business_in_pocket/app.php:468
+msgid "This item is now out of stock."
+msgstr "Этого товара сейчас нет в наличии."
+
+#: classes/controls.php:146
+msgid ""
+"This mode allows you to test marketing campaigns visible only to the admin "
+"chat defined in BOTOSCOPE_ADMIN_CHAT_ID"
+msgstr ""
+"Этот режим позволяет тестировать маркетинговые кампании, видимые только для "
+"админ-чата, указанного в BOTOSCOPE_ADMIN_CHAT_ID"
+
+#: exts/booking/app.php:280
+msgid "Thu"
+msgstr "Чт"
+
+#: botoscope.php:469
+msgid "Ticket"
+msgstr "Билет"
+
+#. %d: ticket number
+#: exts/business_in_pocket/views/chat.php:31
+msgid "Ticket #%d — waiting for reply"
+msgstr "Билет №%d — ожидание ответа"
+
+#: botoscope.php:474
+msgid "Time"
+msgstr "Время"
+
+#: botoscope.php:479 views/sidebar-create-taxonomy.php:14
+#: views/sidebar-create-attribute.php:14 views/sidebar-edit-taxonomy.php:13
+msgid "Title"
+msgstr "Название"
+
+#: classes/payment.php:467
+msgid "To a bank card"
+msgstr "На банковскую карту"
+
+#: botoscope.php:609
+msgid "to group"
+msgstr "в группу"
+
+#. 1: number of orders, 2: total amount
+#: exts/business_in_pocket/app.php:324
+#, php-format
+#| msgid "Today: %d order(s) totaling %s"
+msgid "Today: %1$d order(s) totaling %2$s"
+msgstr "Сегодня: %1$d заказ(ов) на сумму %2$s"
+
+#: classes/controls.php:140
+msgid "Toggle booking feature on or off for your Telegram shop"
+msgstr ""
+"Включить или выключить функцию бронирования для вашего Telegram-магазина"
+
+#: botoscope.php:645
+msgid "Tools"
+msgstr "Инструменты"
+
+#: botoscope.php:458
+msgid "Topic"
+msgstr "Тема"
+
+#: botoscope.php:467
+msgid "Total"
+msgstr "Итого"
+
+#: botoscope.php:542
+msgid "Translated"
+msgstr "Переведенный"
+
+#: botoscope.php:582
+msgid "Translating ..."
+msgstr "Перевод ..."
+
+#: botoscope.php:687
+msgid "Tu"
+msgstr "Вт"
+
+#: exts/booking/app.php:278
+msgid "Tue"
+msgstr "Вт"
+
+#: classes/extensions.php:140
+msgid ""
+"Turn your virtual products into bookable services by assigning time slots — "
+"perfect for coaches, consultants, and service providers"
+msgstr ""
+"Превратите свои виртуальные продукты в доступные для бронирования услуги, "
+"назначив временные интервалы — идеально для тренеров, консультантов и "
+"поставщиков услуг."
+
+#: botoscope.php:457
+msgid "Type"
+msgstr "Тип"
+
+#: botoscope.php:460
+msgid "Unanswered"
+msgstr "Без Ответа"
+
+#: lib/helper.php:84
+msgid "unknown"
+msgstr "неизвестный"
+
+#: botoscope.php:461
+msgid "Updated"
+msgstr "Обновлено"
+
+#: views/options.php:44
+msgid "Upgrade"
+msgstr "Улучшить"
+
+#: exts/support/app.php:450
+msgid "Use botoscope system"
+msgstr "Использовать систему ботоскопа"
+
+#: classes/controls.php:111
+#| msgid "Use private access to bot"
+msgid "Use private access key"
+msgstr "Использовать приватный доступ к Telegram-магазину"
+
+#: exts/support/app.php:451
+msgid "Use telegram username"
+msgstr "Использовать имя пользователя Telegram"
+
+#: classes/controls.php:219
+msgid "Use this if you have problems syncing products with your Telegram store"
+msgstr ""
+"Используйте это, если у вас возникли проблемы с синхронизацией товаров с "
+"вашим магазином в Telegram."
+
+#: exts/support/app.php:452
+msgid "Use web site"
+msgstr "Использовать веб-сайт"
+
+#: classes/controls.php:73
+msgid "Use your Telegram shop as a catalog only (no checkout)"
+msgstr ""
+"Использовать ваш Telegram-магазин только как каталог (без оформления заказа)"
+
+#: botoscope.php:545
+msgid "Value"
+msgstr "Значение"
+
+#: botoscope.php:594 exts/products/app.php:44
+msgid "Variable"
+msgstr "Вариативный"
+
+#: botoscope.php:568
+msgid "Variation"
+msgstr "Вариация"
+
+#: botoscope.php:572
+msgid "Variation of product"
+msgstr "Вариация товара"
+
+#: exts/products/views/single-product-variation.php:81
+msgid "Variation type"
+msgstr "Тип вариации"
+
+#: botoscope.php:569
+msgid "Variations"
+msgstr "Вариации"
+
+#. %d: count
+#: exts/products/views/single-product.php:172
+msgid "Variations (%d)"
+msgstr "Вариации (%d)"
+
+#: botoscope.php:571
+msgid "Variations for product"
+msgstr "Варианты товара"
+
+#: botoscope.php:570
+msgid "Variations of product"
+msgstr "Вариации товара"
+
+#: botoscope.php:546
+msgid "Video"
+msgstr "Видео"
+
+#: exts/products/views/single-product-variation.php:67
+msgid "Virtual"
+msgstr "Виртуальный"
+
+#: exts/products/views/single-product-variation.php:68
+msgid "Virtual Downloadable"
+msgstr "Виртуальный Загружаемый"
+
+#: botoscope.php:490
+msgid "Waist"
+msgstr "Талия"
+
+#: botoscope.php:688
+msgid "We"
+msgstr "Ср"
+
+#: exts/support/app.php:460
+msgid "Web site link for support"
+msgstr "Ссылка на веб-сайт для поддержки"
+
+#: exts/booking/app.php:279
+msgid "Wed"
+msgstr "Ср"
+
+#: classes/extensions.php:311
+msgid ""
+"Welcome to Botoscope! 🎉\n"
+"\n"
+"IMPORTANT FIRST STEP:\n"
+"\n"
+"1️⃣ Configure wp-config.php with your Botoscope credentials\n"
+"2️⃣ Go to System Controls tab\n"
+"3️⃣ Click [Full Reset System Data] button\n"
+"\n"
+"This will synchronize your Telegram shop with your WordPress site."
+msgstr ""
+"Добро пожаловать в Botoscope! 🎉\n"
+"\n"
+"ВАЖНЫЙ ПЕРВЫЙ ШАГ:\n"
+"\n"
+"1️⃣ Настройте wp-config.php с вашими данными Botoscope\n"
+"2️⃣ Перейдите на вкладку System Controls\n"
+"3️⃣ Нажмите кнопку [Full Reset System Data]\n"
+"\n"
+"Это синхронизирует ваш Telegram-магазин с сайтом WordPress."
+
+#: exts/marketing/classes/marketing_strategies_app.php:218
+msgid ""
+"When 2 items are purchased, the second one is 50% off; when 3 or more are "
+"purchased, the cheapest one is free"
+msgstr ""
+"При покупке двух товаров скидка на второй составляет 50%; при покупке трёх и "
+"более товаров самый дешевый товар предоставляется бесплатно."
+
+#: exts/marketing/classes/marketing_strategies_app.php:213
+msgid "When more than 2 items are purchased, the cheapest one is free"
+msgstr "При покупке более 2 товаров самый дешевый предоставляется бесплатно."
+
+#: exts/business_in_pocket/views/chat.php:75
+msgid "Write a message..."
+msgstr "Написать сообщение..."
+
+#: botoscope.php:615
+msgid "Yes"
+msgstr "Да"
+
+#: exts/products/views/single-product.php:116
+#: exts/products/views/single-product.php:218
+#: exts/products/views/single-product.php:241
+#: exts/products/views/single-product.php:287
+#: exts/products/views/single-product-variation.php:118
+msgid "yes"
+msgstr "да"
+
+#: exts/business_in_pocket/views/chat.php:64
+msgid "You"
+msgstr "Ты"
+
+#: classes/controls.php:45
+msgid "You can set a logo image for your orders here"
+msgstr "Здесь вы можете установить логотип для ваших заказов"
+
+#: botoscope.php:262
+msgid ""
+"You can use this field to set a thumbnail preview for your videos in the "
+"admin area. This is especially useful for links to videos shared in your "
+"dedicated Telegram channel when the videos exceed 25 seconds in length "
+"and/or are too large for the Telegram API."
+msgstr ""
+"Вы можете использовать это поле для установки миниатюры предварительного "
+"просмотра для ваших видео в административной области. Это особенно полезно "
+"для ссылок на видео, размещенные в вашем выделенном канале Telegram, когда "
+"видео превышают 25 секунд в длину и/или слишком велики для API Telegram."
+
+#: botoscope.php:561
+msgid "You should provide some text"
+msgstr "Вы должны предоставить какой-то текст"
+
+#. %s: max files number
+#: botoscope.php:600
+#, php-format
+#| msgid ""
+#| "You’ve reached the maximum file limit of %s. No more files can be added."
+msgid ""
+"You've reached the maximum file limit of %s. No more files can be added."
+msgstr ""
+"Вы достигли максимального количества файлов: %s. Добавление дополнительных "
+"файлов невозможно."
+
+#: classes/payment.php:468 classes/payment.php:473
+msgid ""
+"💳 When sending the payment (bank transfer or card), please include your "
+"**order number** 📦 and **phone number** 📱 in the payment reference. ⚠️ "
+"Without these details, we may not be able to confirm your payment promptly."
+msgstr ""
+"💳 При отправке платежа (банковским переводом или картой) укажите, пожалуйста,"
+" ваш **номер заказа** 📦 и **номер телефона** 📱 в назначении платежа. ⚠️ Без "
+"этих данных мы не сможем оперативно подтвердить ваш платеж."

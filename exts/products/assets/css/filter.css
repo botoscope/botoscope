@@ -1,0 +1,11 @@
+body.botoscope-dark-mode h4 {
+    color: #fff;
+}
+
+body.botoscope-dark-mode .woof_label_term{
+    color: #000;
+}
+
+.button.woof_reset_search_form{
+    display: none;
+}

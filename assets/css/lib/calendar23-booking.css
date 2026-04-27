@@ -1,0 +1,57 @@
+.booking-calendar{
+    display: flex;
+}
+
+.booking-calendar .calendar23-month{
+    width: 100%;
+}
+
+.booking-calendar .calendar23-month .calendar23-big{
+    width: 100%;
+    height: auto;
+    line-height: normal;
+    padding: 12px;
+}
+
+.booking-calendar *{
+    box-sizing: border-box;
+}
+
+.calendar23-label-booking-day span{
+    cursor: auto;
+}
+
+.calendar23-booking-form-container{
+    width: 100% !important;
+    height: auto !important;
+    cursor: auto;
+    text-align: left !important;
+    padding: 10px 15px;
+    line-height: normal !important;
+    margin: 0 !important;
+}
+
+.calendar23-booking-form-container:hover{
+    background: unset !important;
+    color: unset !important;
+}
+
+.calendar23-month{
+    width: 100%;
+    min-width: 300px;
+}
+
+.booking-cell-count{
+    position: absolute;
+    right: -5px;
+    top: -2px;
+    background: #fff;
+    color: #000;
+    border-radius: 50%;
+    line-height: 16px;
+    width: 16px;
+    height: 16px;
+    font-size: 9px;
+    display: block;
+}
+

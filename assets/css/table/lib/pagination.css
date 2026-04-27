@@ -1,0 +1,45 @@
+.data-table-pagination {
+    left: 0;
+    bottom: -30px;
+    display: flex;
+    justify-content: end;
+}
+
+.data-table-pagination-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    margin-right: 5px;
+}
+
+.data-table-pagination-btn a,
+.data-table-pagination-btn span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 15px;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.data-table-pagination-btn a {
+    background: linear-gradient(135deg, #f0f0f0, #dcdcdc);
+    color: yellowgreen;
+}
+
+.data-table-pagination-btn span {
+    background: linear-gradient(135deg, #cccccc, #b0b0b0);
+    color: #444;
+    cursor: default;
+}
+
+.data-table-pagination-btn a:hover {
+    background: linear-gradient(135deg, #dfffd0, #aaff80);
+    box-shadow: 0 4px 8px rgba(173, 255, 47, 0.3);
+    transform: scale(1.05);
+}

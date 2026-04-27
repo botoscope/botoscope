@@ -1,0 +1,110 @@
+/* ─── Variables ─── */
+:root {
+    --tg:     #2AABEE;
+    --tg-d:   #1A96D4;
+    --tg-l:   #EAF6FD;
+    --tg-t:   #17212B;
+    --tg-m:   #707579;
+    --tg-bg:  #F4F4F5;
+    --tg-w:   #FFFFFF;
+    --tg-br:  #E4E6EB;
+    --tg-r:   4px;
+    --tg-tr:  150ms ease;
+}
+
+/* ─── Buttons ─── */
+.botoscope-button {
+    background: var(--tg);
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    letter-spacing: 0;
+    transition: background var(--tg-tr);
+    box-shadow: none;
+}
+.botoscope-button:hover,
+.botoscope-button.selected {
+    background: var(--tg-d);
+    color: #fff;
+    box-shadow: none;
+    transform: none;
+    filter: none;
+}
+.botoscope-button:active {
+    transform: scale(0.97);
+}
+
+.button-primary {
+    background: var(--tg) !important;
+    border-color: var(--tg-d) !important;
+    border-radius: var(--tg-r) !important;
+    transition: background var(--tg-tr) !important;
+    color: #fff !important;
+}
+.button-primary:hover,
+.button-primary:focus {
+    background: var(--tg-d) !important;
+    border-color: var(--tg-d) !important;
+}
+
+/* ─── Tabs ─── */
+.botoscope-tabs > nav {
+    background: var(--tg-w);
+    border-bottom: 2px solid var(--tg-br);
+}
+.botoscope-tabs > nav > ul li a {
+    color: var(--tg-m);
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: none;
+    border-radius: 0;
+    border-bottom: 2px solid transparent;
+    margin-bottom: -2px;
+    transition: color var(--tg-tr);
+    background: none;
+    box-shadow: none;
+}
+.botoscope-tabs > nav > ul li a:hover {
+    color: var(--tg-t);
+    background: none;
+    box-shadow: none;
+    transform: none;
+}
+.botoscope-tabs > nav > ul li.tab-current > a {
+    color: var(--tg);
+    background: none;
+    box-shadow: none;
+    font-weight: 600;
+    border-bottom: 2px solid var(--tg);
+}
+
+
+/* ─── Table ─── */
+data-table-head data-table-cell,
+data-table-foot data-table-cell {
+    background: linear-gradient(135deg, var(--tg), var(--tg-d)) !important;
+    border-color: var(--tg-d) !important;
+    box-shadow: none !important;
+    border-right: 1px solid rgba(255,255,255,0.2) !important;
+    text-transform: none;
+    font-size: 15px;
+}
+
+data-table-row:hover {
+    background: var(--tg-l);
+}
+
+#wpbody button {
+    background: linear-gradient(113deg, var(--tg-d) 0%, var(--tg) 60%, #5DC8F5 100%);
+    border: solid 1px var(--tg-d) !important;
+}
+
+.botoscope-plugin-name{
+    color: #0D6EBD;
+}
+
+data-table-head, data-table-foot, data-table-row{
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.9), rgba(42, 171, 238, 0.1));
+}
+

@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #1e1e2f;
+    color: #e5e5e5;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.chat-container {
+    flex: 1;
+    padding: 15px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.message {
+    max-width: 70%;
+    padding: 10px 14px;
+    border-radius: 16px;
+    margin-bottom: 10px;
+    word-wrap: break-word;
+    line-height: 1.4;
+    font-size: 15px;
+    position: relative;
+}
+
+.you {
+    align-self: flex-end;
+    background-color: #007aff;
+    color: white;
+    border-bottom-right-radius: 0;
+}
+
+.customer {
+    align-self: flex-start;
+    background-color: #2a2f45;
+    color: #e5e5e5;
+    border-bottom-left-radius: 0;
+}
+
+.meta {
+    font-size: 11px;
+    opacity: 0.7;
+    margin-top: 6px;
+}
+
+.input-area {
+    display: flex;
+    align-items: flex-end;
+    padding: 10px;
+    border-top: 1px solid #333;
+    background-color: #262836;
+}
+
+.input-area textarea {
+    flex: 1;
+    resize: none;
+    max-height: 150px;
+    padding: 10px 14px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    background-color: #2f3144;
+    color: #fff;
+    font-size: 14px;
+    line-height: 1.4;
+    overflow-y: auto;
+}
+
+.send-button {
+    margin-left: 10px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    align-self: flex-end;
+}
+
+.send-button svg {
+    width: 24px;
+    height: 24px;
+    fill: #007aff;
+}
+
+.send-button:hover svg {
+    fill: #339dff;
+}
+
+.dropdown-container {
+    background-color: #262836;
+    border-bottom: 1px solid #333;
+}
+
+.dropdown-header {
+    padding: 12px 16px;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: #2f3144;
+    color: #fff;
+}
+
+.dropdown-content {
+    display: none;
+    padding: 10px;
+    background-color: #1e1e2f;
+    border-top: 1px solid #333;
+}
+
+.client-entry {
+    margin-bottom: 8px;
+    background-color: #2a2f45;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #e5e5e5;
+    position: relative;
+}
+
+.client-details {
+    display: none;
+    margin-top: 8px;
+    background-color: #333950;
+    padding: 10px;
+    border-radius: 8px;
+}
