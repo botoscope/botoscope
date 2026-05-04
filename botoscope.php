@@ -7,7 +7,7 @@
   Tested up to: 7.0
   Author: botoscope
   Author URI: https://botoscope.com/about
-  Version: 1.0.0
+  Version: 1.0.1
   Requires PHP: 8.3
   Tags: woocommerce, telegram, ecommerce, shop, chatbot
   Text Domain: botoscope
@@ -19,7 +19,7 @@
   Forum URI: https://pluginus.net/support/forum/botoscope/
  */
 
-//22-04-2026
+//04-05-2026
 if (!defined('ABSPATH')) {
     exit;
 }
@@ -39,7 +39,7 @@ include_once 'rest/orders.php';
 include_once 'rest/allrest.php';
 
 define('BOTOSCOPE_PLUGIN_NAME', plugin_basename(__FILE__));
-define('BOTOSCOPE_VERSION', '1.0.0');
+define('BOTOSCOPE_VERSION', '1.0.1');
 define('BOTOSCOPE_PATH', plugin_dir_path(__FILE__));
 define('BOTOSCOPE_LINK', plugin_dir_url(__FILE__));
 define('BOTOSCOPE_ASSETS_LINK', BOTOSCOPE_LINK . 'assets/');

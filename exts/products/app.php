@@ -6,7 +6,7 @@ if (!defined('ABSPATH')) {
 include_once BOTOSCOPE_PATH . 'classes/products_translations.php';
 include_once 'classes/meta.php';
 
-//20-04-2026
+//04-05-2026
 final class BOTOSCOPE_PRODUCTS extends BOTOSCOPE_APP {
 
     protected $botoscope;
@@ -1292,6 +1292,12 @@ final class BOTOSCOPE_PRODUCTS extends BOTOSCOPE_APP {
         $product->set_name(esc_html__('New product', 'botoscope'));
         $product->set_regular_price(0);
         $product->set_status('draft');
+
+        global $wpdb;
+        // phpcs:ignore WordPress.DB.DirectDatabaseQuery.DirectQuery, WordPress.DB.DirectDatabaseQuery.NoCaching
+        $min_order = (int) $wpdb->get_var("SELECT MIN(menu_order) FROM {$wpdb->posts} WHERE post_type = 'product' AND post_status != 'trash'");
+        $product->set_menu_order($min_order - 1);
+
         $product_id = $product->save();
 
         update_post_meta($product_id, '_downloadable', 'no');

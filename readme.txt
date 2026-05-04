@@ -10,7 +10,7 @@ WC tested up to: 10.6
 Requires Plugins: woocommerce
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 
 Connect your WooCommerce store to Telegram: sell products, bookings and digital goods via your own bot — no fees, no commissions.
 
@@ -350,17 +350,16 @@ You can report security bugs through the Patchstack Vulnerability Disclosure Pro
 
 == Screenshots ==
 
+https://www.youtube.com/watch?v=4yG2IUTUz9g
+
 1. Telegram shop — product catalog with filters
-2. Booking system — weekly schedule and time slots
-3. Variable products — attribute and variation selection
-4. Payment methods — checkout inside Telegram
-5. Business in Pocket — order notifications in Telegram
-6. Promotions — discount campaign builder
-7. Support tickets — admin panel view
-8. Broadcasting — send announcements to all customers
+
 
 
 == Changelog ==
+
+= 1.0.1 =
+* Fix: new product is now assigned the lowest <expression: menu_order - 1> so it appears first when store uses menu order sorting
 
 = 1.0.0 =
 * Initial release
