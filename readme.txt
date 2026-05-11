@@ -6,11 +6,11 @@ Requires at least: 6.0
 Tested up to: 7.0
 Requires PHP: 8.3
 WC requires at least: 9.0
-WC tested up to: 10.6
+WC tested up to: 10.7
 Requires Plugins: woocommerce
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 
 Connect your WooCommerce store to Telegram: sell products, bookings and digital goods via your own bot — no fees, no commissions.
 
@@ -357,6 +357,11 @@ https://www.youtube.com/watch?v=4yG2IUTUz9g
 
 
 == Changelog ==
+
+= 1.0.2 =
+* Fix: product meta fields (e.g. access_days) were being saved to bot cache before all fields were written to DB, causing a one-save lag in Telegram — bot cache now updates only after the full save loop completes
+* Fix: bot cache was updating twice per product save due to two sequential AJAX calls from the frontend — cache update is now skipped on the type-only first call
+* Fix: fatal error in botoscope_edit_cell when value is an array (e.g. downloads_order reordering) — value sanitization now handles both string and array types
 
 = 1.0.1 =
 * Fix: new product is now assigned the lowest <expression: menu_order - 1> so it appears first when store uses menu order sorting

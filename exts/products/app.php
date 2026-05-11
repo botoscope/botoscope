@@ -6,7 +6,7 @@ if (!defined('ABSPATH')) {
 include_once BOTOSCOPE_PATH . 'classes/products_translations.php';
 include_once 'classes/meta.php';
 
-//04-05-2026
+//11-05-2026
 final class BOTOSCOPE_PRODUCTS extends BOTOSCOPE_APP {
 
     protected $botoscope;
@@ -147,7 +147,7 @@ final class BOTOSCOPE_PRODUCTS extends BOTOSCOPE_APP {
                     }
 
                     //+++
-
+                    self::$synced_products[$product_id] = true; //fix to avoid synhro of the product before all the data save
                     foreach ($data as $field_key => $value) {
                         $this->update($product, $field_key, $value);
                     }
@@ -157,7 +157,9 @@ final class BOTOSCOPE_PRODUCTS extends BOTOSCOPE_APP {
                     delete_transient('woocommerce_products');
                     wp_cache_flush();
 
-                    if ($product && $product->is_type('variation')) {
+                    unset(self::$synced_products[$product_id]);
+                    $non_type_keys = array_diff(array_keys($data), ['type', 'audio']); //fix to avoid synhro of the product before all the data save
+                    if (!empty($non_type_keys)) {
                         $this->update_product_bot_cache($product_id);
                     }
 

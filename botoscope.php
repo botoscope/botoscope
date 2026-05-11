@@ -7,7 +7,7 @@
   Tested up to: 7.0
   Author: botoscope
   Author URI: https://botoscope.com/about
-  Version: 1.0.1
+  Version: 1.0.2
   Requires PHP: 8.3
   Tags: woocommerce, telegram, ecommerce, shop, chatbot
   Text Domain: botoscope
@@ -19,7 +19,7 @@
   Forum URI: https://pluginus.net/support/forum/botoscope/
  */
 
-//04-05-2026
+//11-05-2026
 if (!defined('ABSPATH')) {
     exit;
 }
@@ -39,7 +39,7 @@ include_once 'rest/orders.php';
 include_once 'rest/allrest.php';
 
 define('BOTOSCOPE_PLUGIN_NAME', plugin_basename(__FILE__));
-define('BOTOSCOPE_VERSION', '1.0.1');
+define('BOTOSCOPE_VERSION', '1.0.2');
 define('BOTOSCOPE_PATH', plugin_dir_path(__FILE__));
 define('BOTOSCOPE_LINK', plugin_dir_url(__FILE__));
 define('BOTOSCOPE_ASSETS_LINK', BOTOSCOPE_LINK . 'assets/');
@@ -767,17 +767,18 @@ class Botoscope {
 
             $key = sanitize_key($_REQUEST['key'] ?? '');
             $id = isset($_REQUEST['id']) ? is_numeric($_REQUEST['id']) ? intval($_REQUEST['id']) : sanitize_text_field($_REQUEST['id']) : 0;
-            $value = wp_kses_post(wp_unslash($_REQUEST['value'] ?? ''));
+            $raw_value = $_REQUEST['value'] ?? '';
+            $value = is_array($raw_value) ? array_map('wp_kses_post', array_map('wp_unslash', $raw_value)) : wp_kses_post(wp_unslash($raw_value));
             $what = sanitize_text_field($_REQUEST['what']);
             $request_data = [];
-            
+
             if (property_exists($this, $what) && $this->$what && method_exists($this->$what, 'update')) {
 
                 //!!fix
                 if ($value === 'null') {
                     $value = null;
                 }
-                
+
                 foreach (wp_unslash($_REQUEST) as $k => $v) {
                     $request_data[sanitize_key($k)] = is_array($v) ? array_map('wp_kses_post', $v) : (is_string($v) ? wp_kses_post($v) : $v);
                 }
