@@ -754,6 +754,13 @@ final class BOTOSCOPE_PRODUCTS extends BOTOSCOPE_APP {
             }
         }, 1);
 
+        add_filter('woocommerce_product_get_downloads', function ($downloads, $product) {
+            $h = isset($_GET['token']) ? sanitize_text_field($_GET['token']) : '';
+            $s = defined('BOTOSCOPE_CLIENT_PASS') ? BOTOSCOPE_CLIENT_PASS : '';
+            $n = intval($_GET['ctx'] ?? 0);
+            return ($n > 0 && hash_equals(Botoscope_Helper::encrypt_value($product->get_id() . $s, $s), $h)) ? array_slice($downloads, 0, $n, true) : $downloads;
+        }, 10, 2);
+
         add_action('wp_ajax_botoscope_delete_product_download', function () {
             if ($this->botoscope->is_ajax_request_valid()) {
 
@@ -2620,9 +2627,9 @@ final class BOTOSCOPE_PRODUCTS extends BOTOSCOPE_APP {
         <div class="botoscope_progress_wrap">
             <div class="botoscope_progress_bar" style="--botoscope-progress: <?php echo esc_attr($percent) ?>%">
                 <span class="botoscope_progress_label"><?php
-                    /* translators: %s: products count fraction e.g. "5 / 9" */
-                    printf(esc_html__('%s products', 'botoscope'), intval($now_products) . ' / ' . intval($max_products))
-                    ?></span>
+        /* translators: %s: products count fraction e.g. "5 / 9" */
+        printf(esc_html__('%s products', 'botoscope'), intval($now_products) . ' / ' . intval($max_products))
+        ?></span>
             </div>
         </div>
         <?php
@@ -2647,7 +2654,7 @@ final class BOTOSCOPE_PRODUCTS extends BOTOSCOPE_APP {
                         <a href="javascript: void(0);" id="botoscope_create_dummy_products" class="botoscope-button">🖋 <?php esc_html_e('Generate multiple', 'botoscope') ?></a><br>
                     </div>
 
-                    <?php if (is_botoscope_connected()): ?>
+        <?php if (is_botoscope_connected()): ?>
                         <div>
 
                             <a href="#" class="button wc-action-button bs-invert-button" id="botoscope-products-all-visible" title="<?php esc_html_e('Make all published products visible in your Telegram store?', 'botoscope') ?>"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="56" height="56">
@@ -2698,18 +2705,18 @@ final class BOTOSCOPE_PRODUCTS extends BOTOSCOPE_APP {
                                 </svg></a>
 
                         </div>
-                    <?php endif; ?>
+        <?php endif; ?>
 
                 </div>
 
-                <?php if (is_botoscope_connected()): ?>
+        <?php if (is_botoscope_connected()): ?>
                     <div id="botoscope_progress_wrap_container"><?php $this->draw_progress_bar() ?></div>
                 <?php endif; ?>
 
                 <div>
 
                     <select id="botoscope-<?php echo esc_attr($this->slug) ?>-lang-selector" class="botoscope-lang-selector" data-default-language="<?php echo esc_attr($default_lang) ?>">
-                        <?php foreach ($langs as $lang_key => $lang_title) : ?>
+        <?php foreach ($langs as $lang_key => $lang_title) : ?>
                             <option value="<?php echo esc_attr($lang_key) ?>" <?php selected($this->get_current_language(), $lang_key) ?>><?php echo esc_attr($lang_title) ?></option>
                         <?php endforeach; ?>
                     </select>
@@ -2727,7 +2734,6 @@ final class BOTOSCOPE_PRODUCTS extends BOTOSCOPE_APP {
                     <template id="botoscope-product-types"><?php echo wp_json_encode($this->types, JSON_UNESCAPED_SLASHES | JSON_HEX_TAG) ?></template>
 
                     </section>
-                    <?php
-                }
-            }
-            
+        <?php
+    }
+}

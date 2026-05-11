@@ -10,7 +10,7 @@ WC tested up to: 10.7
 Requires Plugins: woocommerce
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
-Stable tag: 1.0.2
+Stable tag: 1.0.3
 
 Connect your WooCommerce store to Telegram: sell products, bookings and digital goods via your own bot — no fees, no commissions.
 
@@ -245,6 +245,10 @@ Update 100 products in seconds directly from Telegram shop admin.
 
 ---
 
+https://www.youtube.com/playlist?list=PLX-KWhgqncjH19Pa8SnHxqI9iAkQrqVx2
+
+---
+
 ### Free vs Premium
 
 **Botoscope is free to start — no credit card, no commitment, no hidden fees.**
@@ -358,8 +362,11 @@ https://www.youtube.com/watch?v=4yG2IUTUz9g
 
 == Changelog ==
 
+= 1.0.3 =
+* Security: media casting content access is now protected against unauthorized URL access
+
 = 1.0.2 =
-* Fix: product meta fields (e.g. access_days) were being saved to bot cache before all fields were written to DB, causing a one-save lag in Telegram — bot cache now updates only after the full save loop completes
+* Fix: product meta fields (e.g. access_days for downloads/casting) were being saved to bot cache before all fields were written to DB, causing a one-save lag in Telegram — bot cache now updates only after the full save loop completes
 * Fix: bot cache was updating twice per product save due to two sequential AJAX calls from the frontend — cache update is now skipped on the type-only first call
 * Fix: fatal error in botoscope_edit_cell when value is an array (e.g. downloads_order reordering) — value sanitization now handles both string and array types
 

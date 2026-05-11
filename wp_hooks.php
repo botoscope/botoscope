@@ -2,7 +2,7 @@
 if (!defined('ABSPATH')) {
     exit; // Exit if accessed directly
 }
-//08-04-2026
+//11-05-2026
 add_filter('woocommerce_order_get_formatted_shipping_address', function ($address, $raw_address, $order) {
     $custom_address = $order->get_meta('_botoscope_shipping_address');
 
@@ -89,6 +89,17 @@ add_shortcode('botoscope_media_casting', function () {
     }
 
     $product_id = intval($_GET['product_id']);
+
+    $token = isset($_GET['token']) ? sanitize_text_field($_GET['token']) : '';
+    $pass = defined('BOTOSCOPE_CLIENT_PASS') ? BOTOSCOPE_CLIENT_PASS : '';
+    $expected = Botoscope_Helper::encrypt_value($product_id . $pass, $pass);
+
+    if (!$product_id || !hash_equals($expected, $token)) {
+        return '<p>Access denied</p>';
+    }
+
+    //+++
+
     $download_id = isset($_GET['download_id']) ? sanitize_text_field($_GET['download_id']) : '';
 
     $product = wc_get_product($product_id);
@@ -104,6 +115,8 @@ add_shortcode('botoscope_media_casting', function () {
     <h3 class="botoscope-media-casting-title"><?php echo esc_html(get_the_title($product_id)); ?></h3>
     <form method="GET" id="botoscope-media-form">
         <input type="hidden" name="product_id" value="<?php echo esc_attr($product_id); ?>">
+        <input type="hidden" name="token" value="<?php echo esc_attr($token); ?>">
+        <input type="hidden" name="ctx" value="<?php echo intval($_GET['ctx']); ?>">
         <select name="download_id" onchange="document.getElementById('botoscope-media-form').submit();">
             <?php
             foreach ($downloads as $download):

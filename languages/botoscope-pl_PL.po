@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Botoscope\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-01-03 12:08+0000\n"
-"PO-Revision-Date: 2026-04-14 11:34+0000\n"
+"PO-Revision-Date: 2026-05-11 18:28+0000\n"
 "Last-Translator: \n"
 "Language-Team: Polish\n"
 "Language: pl_PL\n"
@@ -17,7 +17,7 @@ msgstr ""
 "X-Loco-Version: 2.6.14; wp-6.7.1\n"
 
 #. %s: products count fraction e.g. "5 / 9"
-#: exts/products/app.php:2612
+#: exts/products/app.php:2631
 #, php-format
 msgid "%s products"
 msgstr "%s produktów"
@@ -46,11 +46,11 @@ msgstr "Dni dostępu"
 msgid "Activate all terms"
 msgstr "Aktywuj wszystkie terminy"
 
-#: botoscope.php:482
+#: botoscope.php:488
 msgid "Active"
 msgstr "Aktywny"
 
-#: botoscope.php:502
+#: botoscope.php:508
 msgid "Add"
 msgstr "Dodaj"
 
@@ -64,23 +64,23 @@ msgstr ""
 "niestandardowych procesów płatności, handlu bezinterfejsowego, zamówień B2B "
 "lub gdy sklep Telegram jest używany tylko jako katalog produktów."
 
-#: botoscope.php:619
+#: botoscope.php:626
 msgid "Add all"
 msgstr "Dodaj wszystko"
 
-#: botoscope.php:612
+#: botoscope.php:618
 msgid "Add audio"
 msgstr "Dodaj audio"
 
-#: botoscope.php:614
+#: botoscope.php:620
 msgid "Add image"
 msgstr "Dodaj obraz"
 
-#: botoscope.php:635
+#: botoscope.php:642
 msgid "Added"
 msgstr "Dodano"
 
-#: botoscope.php:517
+#: botoscope.php:523
 msgid "Address"
 msgstr "Adres"
 
@@ -96,7 +96,7 @@ msgstr ""
 msgid "Advertising"
 msgstr "Reklama"
 
-#: botoscope.php:456
+#: botoscope.php:462
 #| msgid ""
 #| "After performing bulk operations, go to the Botoscope system controls and "
 #| "click the “Reset telegram product data cache” button to synchronize with "
@@ -115,11 +115,11 @@ msgid ""
 "After placing your order, don't forget to send the link to your partner."
 msgstr "Po złożeniu zamówienia nie zapomnij wysłać linku swojemu partnerowi."
 
-#: botoscope.php:536
+#: botoscope.php:542
 msgid "Amount"
 msgstr "Kwota"
 
-#: botoscope.php:636
+#: botoscope.php:643
 msgid "Analytics"
 msgstr "Analityka"
 
@@ -127,19 +127,19 @@ msgstr "Analityka"
 msgid "Answer to customer now"
 msgstr "Odpowiedz klientowi teraz"
 
-#: botoscope.php:628
+#: botoscope.php:635
 msgid "Append"
 msgstr "Dodaj"
 
-#: botoscope.php:624
+#: botoscope.php:631
 msgid "Append meta field"
 msgstr "Dodaj pole meta"
 
-#: botoscope.php:584
+#: botoscope.php:590
 msgid "append new formula"
 msgstr "dodaj nową formułę"
 
-#: botoscope.php:494
+#: botoscope.php:500
 msgid "append new row"
 msgstr "dodaj nowy wiersz"
 
@@ -147,23 +147,23 @@ msgstr "dodaj nowy wiersz"
 msgid "Applies XX% off to all items"
 msgstr "Stosuje XX% rabatu do wszystkich produktów"
 
-#: botoscope.php:632
+#: botoscope.php:639
 msgid "Apply"
 msgstr "Zastosuj"
 
-#: botoscope.php:675
+#: botoscope.php:682
 msgid "Apr"
 msgstr "Kwi"
 
-#: botoscope.php:661
+#: botoscope.php:668
 msgid "April"
 msgstr "Kwiecień"
 
-#: botoscope.php:475
+#: botoscope.php:481
 msgid "Are you sure?"
 msgstr "Czy jesteś pewien?"
 
-#: botoscope.php:642
+#: botoscope.php:649
 msgid ""
 "Are you sure? All metadata attached to products will also be deleted. This "
 "action cannot be undone!"
@@ -171,15 +171,15 @@ msgstr ""
 "Czy jesteś pewien? Wszystkie metadane dołączone do produktów również zostaną "
 "usunięte. Ta czynność nie może być cofnięta!"
 
-#: botoscope.php:492
+#: botoscope.php:498
 msgid "Arm"
 msgstr "Ramię"
 
-#: botoscope.php:511
+#: botoscope.php:517
 msgid "Attribute"
 msgstr "Atrybut"
 
-#: botoscope.php:578
+#: botoscope.php:584
 msgid "Attributes"
 msgstr "Atrybuty"
 
@@ -187,11 +187,11 @@ msgstr "Atrybuty"
 msgid "Audio"
 msgstr "Audio"
 
-#: botoscope.php:679
+#: botoscope.php:686
 msgid "Aug"
 msgstr "Sie"
 
-#: botoscope.php:665
+#: botoscope.php:672
 msgid "August"
 msgstr "Sierpień"
 
@@ -219,15 +219,15 @@ msgstr "Rezerwacja utworzona ręcznie przez administratora"
 msgid "Booking slots"
 msgstr "Terminy rezerwacji"
 
-#: exts/booking/app.php:272
+#: exts/booking/app.php:263
 msgid "Booking slots for product"
 msgstr "Terminy rezerwacji dla produktu"
 
-#: exts/booking/app.php:287
+#: exts/booking/app.php:278
 msgid "Booking system is off"
 msgstr "System rezerwacji wyłączony"
 
-#: exts/booking/app.php:286
+#: exts/booking/app.php:277
 msgid "Booking system is on"
 msgstr "System rezerwacji włączony"
 
@@ -235,7 +235,7 @@ msgstr "System rezerwacji włączony"
 msgid "Boost Your Business with Telegram Commerce"
 msgstr "Rozwijaj swój biznes dzięki Telegram Commerce"
 
-#: botoscope.php:547
+#: botoscope.php:553
 msgid "Bot Languages"
 msgstr "Języki sklepu Telegram"
 
@@ -251,11 +251,11 @@ msgstr ""
 msgid "Botoscope chat: business in pocket"
 msgstr "Chat Botoscope: biznes w kieszeni"
 
-#: botoscope.php:1107
+#: botoscope.php:1109
 msgid "Botoscope filter"
 msgstr "Filtr Botoscope"
 
-#: botoscope.php:1079
+#: botoscope.php:1081
 msgid "Botoscope media casting"
 msgstr "Transmisja mediów Botoscope"
 
@@ -267,51 +267,51 @@ msgstr "Meta Botoscope"
 msgid "Botoscope percent product discount"
 msgstr "Rabat procentowy na produkt"
 
-#: botoscope.php:1051
+#: botoscope.php:1053
 msgid "Botoscope privacy policy"
 msgstr "Polityka prywatności Botoscope"
 
-#: botoscope.php:1093
+#: botoscope.php:1095
 msgid "Botoscope product details"
 msgstr "Szczegóły produktu Botoscope"
 
-#: botoscope.php:1037
+#: botoscope.php:1039
 msgid "Botoscope refund policy"
 msgstr "Polityka zwrotów Botoscope"
 
-#: botoscope.php:1065
+#: botoscope.php:1067
 msgid "Botoscope shipping policy"
 msgstr "Polityka wysyłki Botoscope"
 
-#: botoscope.php:1169
+#: botoscope.php:1171
 msgid "Botoscope Simple Media Casting"
 msgstr "Botoscope Simple Media Casting"
 
-#: botoscope.php:1167
+#: botoscope.php:1169
 msgid "Botoscope Simple Virtual"
 msgstr "Botoscope Simple Virtual"
 
-#: botoscope.php:1168
+#: botoscope.php:1170
 msgid "Botoscope Simple Virtual Downloadable"
 msgstr "Botoscope Simple Virtual Downloadable"
 
-#: exts/business_in_pocket/views/chat.php:11
+#: exts/business_in_pocket/views/chat.php:24
 msgid "Botoscope Support Chat"
 msgstr "Chat wsparcia"
 
-#: botoscope.php:259
+#: botoscope.php:265
 msgid "Botoscope telegram video link"
 msgstr "Link do wideo Telegram Botoscope"
 
-#: botoscope.php:1121
+#: botoscope.php:1123
 msgid "Botoscope variation gallery"
 msgstr "Galeria wariantów Botoscope"
 
-#: botoscope.php:455
+#: botoscope.php:461
 msgid "Botoscope — Your Partner for Telegram Sales Success"
 msgstr "Botoscope — Twój partner w sukcesie sprzedaży w Telegramie"
 
-#: botoscope.php:249
+#: botoscope.php:255
 msgid "Botoscope: Products Dashboard"
 msgstr "Panel produktów"
 
@@ -319,23 +319,19 @@ msgstr "Panel produktów"
 msgid "Brand"
 msgstr "Marka"
 
-#: botoscope.php:489
+#: botoscope.php:495
 msgid "Breast"
 msgstr "Biust"
 
-#: classes/extensions.php:131
+#: classes/extensions.php:131 exts/broadcast/app.php:24
 msgid "Broadcast"
 msgstr "Rozgłaszanie"
-
-#: exts/broadcast/app.php:24
-msgid "broadcast"
-msgstr "rozgłaszanie"
 
 #: classes/extensions.php:97
 msgid "Broadcast your own advertising to your customers"
 msgstr "Rozgłaszaj własną reklamę swoim klientom"
 
-#: botoscope.php:604
+#: botoscope.php:610
 msgid "Bulk Editing"
 msgstr "Edycja masowa"
 
@@ -343,7 +339,7 @@ msgstr "Edycja masowa"
 msgid "Business in your pocket"
 msgstr "Biznes w Twojej kieszeni"
 
-#: botoscope.php:595
+#: botoscope.php:601
 msgid "Button"
 msgstr "Przycisk"
 
@@ -359,15 +355,15 @@ msgstr "Kup jeden lub więcej i otrzymaj 50% zniżki"
 msgid "Campaigns"
 msgstr "Kampanie"
 
-#: botoscope.php:484
+#: botoscope.php:490
 msgid "Cancel"
 msgstr "Anuluj"
 
-#: exts/booking/app.php:430
+#: exts/booking/app.php:416
 msgid "cancelled by botoscope"
 msgstr "anulowane przez botoscope"
 
-#: exts/booking/app.php:288
+#: exts/booking/app.php:279
 msgid "Capacity"
 msgstr "Pojemność"
 
@@ -375,19 +371,19 @@ msgstr "Pojemność"
 msgid "Categories buttons per row"
 msgstr "Przyciski kategorii w rzędzie"
 
-#: botoscope.php:507 exts/products/views/single-product.php:256
+#: botoscope.php:513 exts/products/views/single-product.php:256
 msgid "Category"
 msgstr "Kategoria"
 
-#: botoscope.php:485
+#: botoscope.php:491
 msgid "Charts for"
 msgstr "Wykresy dla"
 
-#: exts/shopify_sync/app.php:89
+#: exts/shopify_sync/app.php:69
 msgid "Checking webhooks..."
 msgstr "Sprawdzanie webhooków..."
 
-#: botoscope.php:541
+#: botoscope.php:547
 msgid "Child terms"
 msgstr "Podkategorie"
 
@@ -396,27 +392,27 @@ msgid "click to edit ..."
 msgstr "kliknij aby edytować..."
 
 #. %d: number of clients
-#: exts/business_in_pocket/views/chat.php:21
+#: exts/business_in_pocket/views/chat.php:32
 msgid "Clients waiting for reply (%d)"
 msgstr "Klienci oczekujący na odpowiedź (%d)"
 
-#: botoscope.php:622
+#: botoscope.php:629
 msgid "Clone"
 msgstr "Klonuj"
 
-#: botoscope.php:464
+#: botoscope.php:470
 msgid "Close"
 msgstr "Zamknij"
 
-#: botoscope.php:535
+#: botoscope.php:541
 msgid "Code"
 msgstr "Kod"
 
-#: botoscope.php:576
+#: botoscope.php:582
 msgid "Combination"
 msgstr "Kombinacja"
 
-#: botoscope.php:577
+#: botoscope.php:583
 msgid "Combination of attributes should be unique"
 msgstr "Kombinacja atrybutów powinna być unikalna"
 
@@ -424,7 +420,7 @@ msgstr "Kombinacja atrybutów powinna być unikalna"
 msgid "Compliments bring comfort to your customers"
 msgstr "Komplementy przynoszą komfort Twoim klientom"
 
-#: botoscope.php:620
+#: botoscope.php:627
 msgid "Composition"
 msgstr "Skład"
 
@@ -444,7 +440,7 @@ msgstr ""
 msgid "Contact customer about order"
 msgstr "Skontaktuj się z klientem w sprawie zamówienia"
 
-#: botoscope.php:473
+#: botoscope.php:479
 msgid "Content"
 msgstr "Zawartość"
 
@@ -462,26 +458,26 @@ msgstr "Kupon zastosowany"
 msgid "Coupons"
 msgstr "Kupony"
 
-#: botoscope.php:621 views/sidebar-create-taxonomy.php:25
+#: botoscope.php:628 views/sidebar-create-taxonomy.php:25
 #: views/sidebar-create-attribute.php:25 exts/coupons/app.php:317
 #: exts/advertising/app.php:202 exts/broadcast/app.php:85
 #: exts/elogios/app.php:143
 msgid "Create"
 msgstr "Utwórz"
 
-#: exts/booking/app.php:498
+#: exts/booking/app.php:484
 msgid "Create disposable slot"
 msgstr "Utwórz jednorazowy termin"
 
-#: botoscope.php:623
+#: botoscope.php:630
 msgid "Create meta field"
 msgstr "Utwórz pole meta"
 
-#: botoscope.php:629
+#: botoscope.php:636
 msgid "Create meta pack"
 msgstr "Utwórz pakiet meta"
 
-#: exts/products/app.php:2631
+#: exts/products/app.php:2650
 msgid "Create product"
 msgstr "Utwórz produkt"
 
@@ -498,12 +494,12 @@ msgid "Create term"
 msgstr "Utwórz termin"
 
 #. %s: bot name
-#: rest/orders.php:654
+#: rest/orders.php:608
 #, php-format
 msgid "created by Botoscope user: %s"
 msgstr "utworzone przez użytkownika Botoscope: %s"
 
-#: botoscope.php:605
+#: botoscope.php:611
 msgid "Currency"
 msgstr "Waluta"
 
@@ -515,15 +511,15 @@ msgstr "Tekst wyświetlany w stopce zamówienia (tekst konfigurowalny)."
 msgid "Custom text to display in the order header"
 msgstr "Tekst wyświetlany w nagłówku zamówienia (tekst konfigurowalny)."
 
-#: exts/business_in_pocket/views/chat.php:56
+#: exts/business_in_pocket/views/chat.php:67
 msgid "Customer"
 msgstr "Klient"
 
-#: botoscope.php:534
+#: botoscope.php:540
 msgid "Customized"
 msgstr "Dostosowany"
 
-#: botoscope.php:468
+#: botoscope.php:474
 msgid "Date"
 msgstr "Data"
 
@@ -531,19 +527,19 @@ msgstr "Data"
 msgid "Deactivate all terms"
 msgstr "Dezaktywuj wszystkie terminy"
 
-#: botoscope.php:651
+#: botoscope.php:658
 msgid "Deactivated"
 msgstr "Dezaktywowany"
 
-#: botoscope.php:683
+#: botoscope.php:690
 msgid "Dec"
 msgstr "Gru"
 
-#: botoscope.php:669
+#: botoscope.php:676
 msgid "December"
 msgstr "Grudzień"
 
-#: botoscope.php:478
+#: botoscope.php:484
 msgid "Default"
 msgstr "domyślny"
 
@@ -555,7 +551,7 @@ msgstr "Domyślny język"
 msgid "Default system language"
 msgstr "Domyślny język systemu"
 
-#: botoscope.php:483 views/sidebar-edit-taxonomy.php:27
+#: botoscope.php:489 views/sidebar-edit-taxonomy.php:27
 msgid "Delete"
 msgstr "Usuń"
 
@@ -567,7 +563,7 @@ msgstr "Usuń produkty bez potwierdzenia"
 msgid "Delete products without confirmation in the admin panel"
 msgstr "Usuwanie produktów bez potwierdzenia w panelu administratora."
 
-#: exts/products/app.php:2713
+#: exts/products/app.php:2732
 msgid "Deleted Products"
 msgstr "Usunięte produkty"
 
@@ -579,16 +575,16 @@ msgstr "Dostarcz swoją wiadomość. Zaangażuj odbiorców. Natychmiast."
 msgid "Delivery by courier"
 msgstr "Dostawa kurierem"
 
-#: botoscope.php:559
+#: botoscope.php:565
 msgid "delivery methods"
 msgstr "metody dostawy"
 
-#: botoscope.php:480 exts/products/views/single-product.php:32
+#: botoscope.php:486 exts/products/views/single-product.php:32
 #: exts/products/views/single-product-variation.php:17
 msgid "Description"
 msgstr "Opis"
 
-#: botoscope.php:518 exts/products/views/single-product.php:81
+#: botoscope.php:524 exts/products/views/single-product.php:81
 msgid "Details"
 msgstr "Szczegóły"
 
@@ -604,11 +600,11 @@ msgstr "Wyłącz komentarze podczas płatności"
 msgid "Disable the comments step during checkout"
 msgstr "Wyłącz etap komentarzy podczas płatności"
 
-#: rest/orders.php:640
+#: rest/orders.php:594
 msgid "Discount"
 msgstr "Rabat"
 
-#: botoscope.php:512
+#: botoscope.php:518
 msgid "Display"
 msgstr "Wyświetl"
 
@@ -645,21 +641,21 @@ msgstr "Wyświetl przycisk dostosowania ilości w pozycji koszyka"
 msgid "Do not display price under media gallery"
 msgstr "Nie wyświetlaj ceny pod galerią mediów"
 
-#: botoscope.php:217 views/options.php:50
+#: botoscope.php:223 views/options.php:50
 msgid "Documentation"
 msgstr "Dokumentacja"
 
-#: botoscope.php:567
+#: botoscope.php:573
 msgid "Done"
 msgstr "Gotowe"
 
 #. 1: synced count, 2: total count
-#: exts/shopify_sync/app.php:94
+#: exts/shopify_sync/app.php:77
 #, php-format
 msgid "Done! Synced %1$s of %2$s products."
 msgstr "Gotowe! Zsynchronizowano %1$s z %2$s produktów."
 
-#: botoscope.php:641 classes/taxonomies.php:708
+#: botoscope.php:648 classes/taxonomies.php:708
 msgid "Edit"
 msgstr "Edytuj"
 
@@ -671,7 +667,7 @@ msgstr "Komplementy"
 msgid "Enter attribute name"
 msgstr "Wprowadź nazwę atrybutu"
 
-#: botoscope.php:618
+#: botoscope.php:625
 msgid "Enter HTML code"
 msgstr "Wprowadź kod HTML"
 
@@ -687,11 +683,11 @@ msgstr "Wprowadź tytuł produktu"
 msgid "Enter taxonomy name"
 msgstr "Wprowadź nazwę taksonomii"
 
-#: botoscope.php:610
+#: botoscope.php:616
 msgid "Enter the ID of the group product. Enter 0 to detach"
 msgstr "Wprowadź ID produktu grupowego. Wprowadź 0, aby odłączyć"
 
-#: botoscope.php:608
+#: botoscope.php:614
 msgid "Enter the number of products you want to create"
 msgstr "Wprowadź liczbę produktów, które chcesz utworzyć"
 
@@ -726,11 +722,11 @@ msgstr ""
 msgid "EXAMPLE brand name"
 msgstr "PRZYKŁAD nazwy marki"
 
-#: botoscope.php:524
+#: botoscope.php:530
 msgid "Excluded Products"
 msgstr "Wykluczone produkty"
 
-#: botoscope.php:539
+#: botoscope.php:545
 msgid "Expiry"
 msgstr "Wygaśnięcie"
 
@@ -738,7 +734,7 @@ msgstr "Wygaśnięcie"
 msgid "Extensions"
 msgstr "Rozszerzenia"
 
-#: botoscope.php:592 exts/products/app.php:42
+#: botoscope.php:598 exts/products/app.php:42
 msgid "External"
 msgstr "Zewnętrzny"
 
@@ -746,15 +742,15 @@ msgstr "Zewnętrzny"
 msgid "External link"
 msgstr "Link zewnętrzny"
 
-#: exts/products/app.php:1456
+#: exts/products/app.php:1475
 msgid "Failed to update categories"
 msgstr "Nie udało się zaktualizować kategorii"
 
-#: botoscope.php:673
+#: botoscope.php:680
 msgid "Feb"
 msgstr "Lut"
 
-#: botoscope.php:659
+#: botoscope.php:666
 msgid "February"
 msgstr "Luty"
 
@@ -762,7 +758,7 @@ msgstr "Luty"
 msgid "Feel in control — instant shop notifications"
 msgstr "Zachowaj kontrolę — natychmiastowe powiadomienia ze sklepu"
 
-#: botoscope.php:564
+#: botoscope.php:570
 msgid "File URL"
 msgstr "URL pliku"
 
@@ -773,49 +769,49 @@ msgstr "URL pliku"
 msgid "Files (%d)"
 msgstr "Pliki (%d)"
 
-#: botoscope.php:606
+#: botoscope.php:612
 msgid "Filter"
 msgstr "Filtr"
 
-#: botoscope.php:531
+#: botoscope.php:537
 msgid "Finish"
 msgstr "Zakończ"
 
-#: exts/booking/app.php:275
+#: exts/booking/app.php:266
 msgid "Finish hour"
 msgstr "Godzina zakończenia"
 
-#: exts/booking/app.php:276
+#: exts/booking/app.php:267
 msgid "Finish minute"
 msgstr "Minuta zakończenia"
 
-#: botoscope.php:553
+#: botoscope.php:559
 msgid "fixed to cart"
 msgstr "Stała kwota w koszyku"
 
-#: botoscope.php:555
+#: botoscope.php:561
 msgid "fixed to selected product"
 msgstr "Stała kwota na wybrany produkt"
 
-#: botoscope.php:514
+#: botoscope.php:520
 msgid "Formula"
 msgstr "Formuła"
 
-#: botoscope.php:520
+#: botoscope.php:526
 msgid "Formulas"
 msgstr "Formuły"
 
-#: botoscope.php:521
+#: botoscope.php:527
 msgid "Formulas for"
 msgstr "Formuły dla"
 
 #. %s: products count
-#: exts/shopify_sync/app.php:92
+#: exts/shopify_sync/app.php:73
 #, php-format
 msgid "Found %s products. Syncing..."
 msgstr "Znaleziono %s produktów. Synchronizowanie..."
 
-#: botoscope.php:690
+#: botoscope.php:697
 msgid "Fr"
 msgstr "Pt"
 
@@ -851,7 +847,7 @@ msgstr ""
 "oznaczenia i nieprzerwane połączenie."
 
 #. %s: number of booking slots
-#: exts/booking/app.php:453
+#: exts/booking/app.php:439
 #, php-format
 msgid ""
 "Free version: only the first %s booking slots are available in your Telegram "
@@ -860,15 +856,23 @@ msgstr ""
 "Wersja darmowa: w Twoim sklepie Telegram dostępne są tylko pierwsze %s "
 "slotów rezerwacji"
 
-#: exts/booking/app.php:281
+#. 1: max files free
+#: exts/products/views/single-product-downloads.php:13
+#, php-format
+msgid "Free version: showing up to %1$s media files. Upgrade to unlock all."
+msgstr ""
+"Wersja bezpłatna: wyświetlanych jest do %1$s plików multimedialnych. Ulepsz, "
+"aby odblokować wszystko."
+
+#: exts/booking/app.php:272
 msgid "Fri"
 msgstr "Pt"
 
-#: botoscope.php:550 classes/controls.php:223
+#: botoscope.php:556 classes/controls.php:223
 msgid "Full data synchronization with Telegram"
 msgstr "Pełna synchronizacja danych z Telegram"
 
-#: botoscope.php:603
+#: botoscope.php:609
 msgid "Gallery"
 msgstr "Galeria"
 
@@ -878,7 +882,7 @@ msgstr "Galeria"
 msgid "generate"
 msgstr "generuj"
 
-#: exts/products/app.php:2635
+#: exts/products/app.php:2654
 msgid "Generate multiple"
 msgstr "Generuj wiele"
 
@@ -894,11 +898,11 @@ msgid "Get notifications about new orders in your Business-in-Pocket bot"
 msgstr ""
 "Otrzymuj powiadomienia o nowych zamówieniach w Twoim Business-in-Pocket"
 
-#: exts/shopify_sync/app.php:91
+#: exts/shopify_sync/app.php:71
 msgid "Getting product count..."
 msgstr "Pobieranie liczby produktów..."
 
-#: botoscope.php:593 exts/products/app.php:43
+#: botoscope.php:599 exts/products/app.php:43
 msgid "Grouped"
 msgstr "Grupowany"
 
@@ -912,7 +916,7 @@ msgstr ""
 "Produkty zgrupowane w wersji darmowej: produkty należące do tej grupy mogą "
 "nie zostać zsynchronizowane z botem, jeśli przekroczą limit %s produktów."
 
-#: botoscope.php:526
+#: botoscope.php:532
 msgid "Groups for"
 msgstr "Grupy dla"
 
@@ -921,39 +925,39 @@ msgid ""
 "Harness the power of AI to generate product descriptions and translations"
 msgstr "Wykorzystaj moc AI do generowania opisów produktów i tłumaczeń"
 
-#: botoscope.php:486
+#: botoscope.php:492
 msgid "Height"
 msgstr "Wzrost"
 
-#: botoscope.php:652
+#: botoscope.php:659
 msgid "Help"
 msgstr "Pomoc"
 
-#: botoscope.php:1053
+#: botoscope.php:1055
 msgid "Here you can specify the text of your privacy policy"
 msgstr "Tutaj możesz określić tekst swojej polityki prywatności"
 
-#: botoscope.php:1039
+#: botoscope.php:1041
 msgid "Here you can specify the text of your return policy"
 msgstr "Tutaj możesz określić tekst swojej polityki zwrotów"
 
-#: botoscope.php:1067
+#: botoscope.php:1069
 msgid "Here you can specify the text of your shipping policy"
 msgstr "Tutaj możesz określić tekst swojej polityki wysyłki"
 
-#: botoscope.php:654 exts/products/app.php:2666
+#: botoscope.php:661 exts/products/app.php:2685
 msgid "Hide all products in your Telegram store?"
 msgstr "Czy ukryć wszystkie produkty w Twoim sklepie Telegram?"
 
-#: botoscope.php:491
+#: botoscope.php:497
 msgid "Hip"
 msgstr "Biodro"
 
-#: exts/booking/app.php:284
+#: exts/booking/app.php:275
 msgid "Hold"
 msgstr "Zatrzymaj"
 
-#: exts/booking/app.php:285
+#: exts/booking/app.php:276
 msgid "Hold customer to slot"
 msgstr "Zatrzymaj klienta w terminie"
 
@@ -970,7 +974,7 @@ msgstr "https://botoscope.com/"
 msgid "https://botoscope.com/about"
 msgstr "https://botoscope.com/pl/about"
 
-#: botoscope.php:515
+#: botoscope.php:521
 msgid "Icon"
 msgstr "Ikona"
 
@@ -990,7 +994,7 @@ msgstr "W kieszeni: powiadomienia o niskim stanie magazynowym"
 msgid "In pocket: notify about new orders"
 msgstr "W kieszeni: powiadomienia o nowych zamówieniach"
 
-#: botoscope.php:557 exts/products/views/single-product.php:249
+#: botoscope.php:563 exts/products/views/single-product.php:249
 #: exts/products/views/single-product-variation.php:126
 msgid "in stock"
 msgstr "w magazynie"
@@ -999,15 +1003,15 @@ msgstr "w magazynie"
 msgid "Information displayed in the Help section of your Telegram shop"
 msgstr "Informacje wyświetlane w sekcji Pomoc Twojego sklepu Telegram"
 
-#: botoscope.php:513
+#: botoscope.php:519
 msgid "Inline"
 msgstr "Wbudowany"
 
-#: botoscope.php:617
+#: botoscope.php:624
 msgid "Insert HTML"
 msgstr "Wstaw HTML"
 
-#: botoscope.php:459
+#: botoscope.php:465
 msgid "Interaction"
 msgstr "Interakcja"
 
@@ -1023,35 +1027,35 @@ msgstr "Interfejs"
 msgid "Interface translations"
 msgstr "Tłumaczenia interfejsu"
 
-#: botoscope.php:672
+#: botoscope.php:679
 msgid "Jan"
 msgstr "Sty"
 
-#: botoscope.php:658
+#: botoscope.php:665
 msgid "January"
 msgstr "Styczeń"
 
-#: botoscope.php:678
+#: botoscope.php:685
 msgid "Jul"
 msgstr "Lip"
 
-#: botoscope.php:664
+#: botoscope.php:671
 msgid "July"
 msgstr "Lipiec"
 
-#: botoscope.php:677
+#: botoscope.php:684
 msgid "Jun"
 msgstr "Cze"
 
-#: botoscope.php:663
+#: botoscope.php:670
 msgid "June"
 msgstr "Czerwiec"
 
-#: botoscope.php:532
+#: botoscope.php:538
 msgid "Key"
 msgstr "Klucz"
 
-#: botoscope.php:585
+#: botoscope.php:591
 msgid ""
 "Kindly select the product attributes and their corresponding terms first, "
 "and then click save button"
@@ -1067,27 +1071,27 @@ msgstr "Języki"
 msgid "Languages available in your Telegram shop"
 msgstr "Języki dostępne w Twoim sklepie Telegram"
 
-#: exts/shopify_sync/app.php:1161
+#: exts/shopify_sync/app.php:1139
 msgid "Last sync"
 msgstr "Ostatnia synchronizacja"
 
-#: botoscope.php:493
+#: botoscope.php:499
 msgid "Leg length from waist"
 msgstr "Długość nogi od pasa"
 
-#: botoscope.php:537
+#: botoscope.php:543
 msgid "Limit"
 msgstr "Limit"
 
-#: botoscope.php:630
+#: botoscope.php:637
 msgid "Load meta pack"
 msgstr "Załaduj pakiet meta"
 
-#: botoscope.php:566
+#: botoscope.php:572
 msgid "Loading ..."
 msgstr "Ładowanie..."
 
-#: botoscope.php:607
+#: botoscope.php:613
 msgid "Log out"
 msgstr "Wyloguj się"
 
@@ -1100,16 +1104,16 @@ msgstr "Alert niskiego stanu magazynowego"
 msgid "Low stock threshold: %d"
 msgstr "Próg niskiego stanu: %d"
 
-#: botoscope.php:653 exts/products/app.php:2641
+#: botoscope.php:660 exts/products/app.php:2660
 msgid "Make all published products visible in your Telegram store?"
 msgstr ""
 "Czy wyświetlić wszystkie opublikowane produkty w Twoim sklepie Telegram?"
 
-#: botoscope.php:476
+#: botoscope.php:482
 msgid "Manage"
 msgstr "Zarządzaj"
 
-#: botoscope.php:477
+#: botoscope.php:483
 msgid "Manage products"
 msgstr "Zarządzaj produktami"
 
@@ -1126,11 +1130,11 @@ msgstr "Zarządzaj wyświetlaniem atrybutów produktu w sklepie Telegram"
 msgid "Managing telegram shop text variables"
 msgstr "Zarządzanie zmiennymi tekstowymi sklepu Telegram"
 
-#: botoscope.php:674
+#: botoscope.php:681
 msgid "Mar"
 msgstr "Mar"
 
-#: botoscope.php:660
+#: botoscope.php:667
 msgid "March"
 msgstr "Marzec"
 
@@ -1142,23 +1146,23 @@ msgstr "Marketing"
 msgid "Marketing companies and strategies"
 msgstr "Firmy i strategie marketingowe"
 
-#: botoscope.php:522
+#: botoscope.php:528
 msgid "Marketing strategies ext should be activated!"
 msgstr "Rozszerzenie strategii marketingowych powinno być aktywowane!"
 
-#: botoscope.php:538
+#: botoscope.php:544
 msgid "Maximum"
 msgstr "Maksimum"
 
-#: botoscope.php:662 botoscope.php:676
+#: botoscope.php:669 botoscope.php:683
 msgid "May"
 msgstr "Maj"
 
-#: botoscope.php:627
+#: botoscope.php:634
 msgid "Measure"
 msgstr "Miara"
 
-#: botoscope.php:504
+#: botoscope.php:510
 msgid "Media"
 msgstr "Media"
 
@@ -1166,23 +1170,23 @@ msgstr "Media"
 msgid "Media Casting"
 msgstr "Transmisja mediów"
 
-#: botoscope.php:643
+#: botoscope.php:650
 msgid "Message"
 msgstr "Wiadomość"
 
-#: botoscope.php:462
+#: botoscope.php:468
 msgid "Messages"
 msgstr "Wiadomości"
 
-#: botoscope.php:470
+#: botoscope.php:476
 msgid "Messages for"
 msgstr "Wiadomości dla"
 
-#: botoscope.php:471
+#: botoscope.php:477
 msgid "Messages for order"
 msgstr "Wiadomości dla zamówienia"
 
-#: botoscope.php:631
+#: botoscope.php:638
 msgid "Meta packs"
 msgstr "Pakiety meta"
 
@@ -1195,31 +1199,31 @@ msgstr "Minimalna kwota koszyka do zapłaty"
 msgid "Minimal cart count"
 msgstr "Minimalna ilość w koszyku"
 
-#: botoscope.php:497
+#: botoscope.php:503
 msgid "Minimum"
 msgstr "Minimum"
 
-#: botoscope.php:686
+#: botoscope.php:693
 msgid "Mo"
 msgstr "Pn"
 
-#: exts/booking/app.php:277
+#: exts/booking/app.php:268
 msgid "Mon"
 msgstr "Pon"
 
-#: botoscope.php:516
+#: botoscope.php:522
 msgid "Name"
 msgstr "Nazwa"
 
-#: botoscope.php:487
+#: botoscope.php:493
 msgid "Neck"
 msgstr "Szyja"
 
-#: exts/shopify_sync/app.php:1164
+#: exts/shopify_sync/app.php:1142
 msgid "Never synced"
 msgstr "Nigdy nie synchronizowano"
 
-#: botoscope.php:580
+#: botoscope.php:586
 msgid "New attribute"
 msgstr "Nowy atrybut"
 
@@ -1244,11 +1248,11 @@ msgstr "Nowe zamówienie #%d"
 msgid "New pickup point"
 msgstr "Nowy punkt odbioru"
 
-#: exts/products/app.php:1288 exts/products/app.php:1300
+#: exts/products/app.php:1301 exts/products/app.php:1319
 msgid "New product"
 msgstr "Nowy produkt"
 
-#: exts/product_attributes/app.php:210
+#: exts/product_attributes/app.php:208
 msgid "New product attribute"
 msgstr "Nowy atrybut produktu"
 
@@ -1264,11 +1268,11 @@ msgstr "Nowa tabela rozmiarów"
 msgid "New sizechart item"
 msgstr "Nowy element tabeli rozmiarów"
 
-#: botoscope.php:581
+#: botoscope.php:587
 msgid "New taxonomy"
 msgstr "Nowa taksonomia"
 
-#: botoscope.php:616
+#: botoscope.php:622
 msgid "No"
 msgstr "Nie"
 
@@ -1280,15 +1284,15 @@ msgstr "Nie"
 msgid "no"
 msgstr "nie"
 
-#: botoscope.php:565
+#: botoscope.php:571
 msgid "No data"
 msgstr "Brak danych"
 
-#: classes/extensions.php:519
+#: classes/extensions.php:522
 msgid "No description"
 msgstr "Brak opisu"
 
-#: botoscope.php:579
+#: botoscope.php:585
 msgid "not selected"
 msgstr "nie wybrano"
 
@@ -1300,19 +1304,19 @@ msgstr "Notatka"
 msgid "Notify my Business-in-Pocket bot about low stock"
 msgstr "Powiadom mój Business-in-Pocket o niskim stanie magazynowym"
 
-#: botoscope.php:682
+#: botoscope.php:689
 msgid "Nov"
 msgstr "Lis"
 
-#: botoscope.php:668
+#: botoscope.php:675
 msgid "November"
 msgstr "Listopad"
 
-#: botoscope.php:681
+#: botoscope.php:688
 msgid "Oct"
 msgstr "Paź"
 
-#: botoscope.php:667
+#: botoscope.php:674
 msgid "October"
 msgstr "Październik"
 
@@ -1324,7 +1328,7 @@ msgstr "Oferuj rabaty swoim klientom"
 msgid "Openai API key"
 msgstr "Klucz API Openai"
 
-#: botoscope.php:495 rest/orders.php:328
+#: botoscope.php:501 rest/orders.php:285
 msgid "Order"
 msgstr "Zamówienie"
 
@@ -1342,7 +1346,7 @@ msgstr "Stopka zamówienia"
 msgid "Order header"
 msgstr "Nagłówek zamówienia"
 
-#: rest/orders.php:287
+#: rest/orders.php:253
 msgid "Order is paid"
 msgstr "Zamówienie opłacone"
 
@@ -1358,11 +1362,11 @@ msgstr "Logo zamówienia"
 msgid "Order total"
 msgstr "Razem"
 
-#: botoscope.php:601
+#: botoscope.php:607
 msgid "Orders"
 msgstr "Zamówienia"
 
-#: botoscope.php:533
+#: botoscope.php:539
 msgid "Original"
 msgstr "Oryginał"
 
@@ -1370,7 +1374,7 @@ msgstr "Oryginał"
 msgid "Our personal courier service"
 msgstr "Nasza osobista usługa kurierska"
 
-#: botoscope.php:558 exts/products/views/single-product.php:250
+#: botoscope.php:564 exts/products/views/single-product.php:250
 #: exts/products/views/single-product-variation.php:127
 msgid "out of stock"
 msgstr "wyprzedane"
@@ -1386,7 +1390,7 @@ msgstr "Alert o braku w magazynie"
 msgid "Pack has been created from product #%1$s (%2$s)"
 msgstr "Pakiet meta został utworzony z produktu #%1$s (%2$s)"
 
-#: botoscope.php:637
+#: botoscope.php:644
 msgid "Pages"
 msgstr "Strony"
 
@@ -1404,7 +1408,7 @@ msgid "Payment"
 msgstr "Płatność"
 
 #. %s: payment gateway name
-#: rest/orders.php:313
+#: rest/orders.php:267
 #, php-format
 msgid "Payment completed successfully through %s"
 msgstr "Płatność zakończona pomyślnie przez %s"
@@ -1413,15 +1417,15 @@ msgstr "Płatność zakończona pomyślnie przez %s"
 msgid "Payment method"
 msgstr "Metoda płatności"
 
-#: rest/orders.php:306
+#: rest/orders.php:260
 msgid "Payment was successful. Please close this window!"
 msgstr "Płatność zakończona sukcesem! Proszę zamknąć to okno!"
 
-#: botoscope.php:552
+#: botoscope.php:558
 msgid "percent to cart"
 msgstr "Procent do koszyka"
 
-#: botoscope.php:554
+#: botoscope.php:560
 msgid "percent to selected product"
 msgstr "Procent do wybranego produktu"
 
@@ -1433,18 +1437,18 @@ msgstr "Fizyczny"
 msgid "Pickup"
 msgstr "Punkty"
 
-#: botoscope.php:583
+#: botoscope.php:589
 msgid "Place into settings openai API key!"
 msgstr "Umieść klucz API OpenAI w ustawieniach!"
 
-#: exts/shopify_sync/app.php:1154
+#: exts/shopify_sync/app.php:1132
 msgid ""
 "Please configure Shopify credentials in the Settings tab to enable sync."
 msgstr ""
 "Skonfiguruj dane logowania Shopify w zakładce Ustawienia, aby włączyć "
 "synchronizację."
 
-#: botoscope.php:540
+#: botoscope.php:546
 msgid ""
 "Please enter 3 or more characters to start searching, or type an product ID "
 "(e.g. 123 or v123(for variations of variable product))..."
@@ -1452,11 +1456,11 @@ msgstr ""
 "Wprowadź 3 lub więcej znaków, aby rozpocząć wyszukiwanie, lub wpisz ID "
 "produktu (np. 123 lub v123 (dla wariantów produktu zmiennego))..."
 
-#: botoscope.php:465
+#: botoscope.php:471
 msgid "Please enter order number ..."
 msgstr "Proszę wprowadzić numer zamówienia..."
 
-#: botoscope.php:655
+#: botoscope.php:662
 msgid "Please publish the product first!"
 msgstr "Najpierw opublikuj produkt!"
 
@@ -1464,11 +1468,11 @@ msgstr "Najpierw opublikuj produkt!"
 msgid "Please restock soon."
 msgstr "Proszę uzupełnić zapas wkrótce."
 
-#: botoscope.php:496
+#: botoscope.php:502
 msgid "Price"
 msgstr "Cena"
 
-#: botoscope.php:639
+#: botoscope.php:646
 msgid "Privacy policy"
 msgstr "Polityka prywatności"
 
@@ -1476,7 +1480,7 @@ msgstr "Polityka prywatności"
 msgid "Private access key"
 msgstr "Klucz dostępu prywatnego"
 
-#: botoscope.php:498
+#: botoscope.php:504
 msgid "Product"
 msgstr "Produkt"
 
@@ -1485,16 +1489,16 @@ msgstr "Produkt"
 msgid "Product attributes"
 msgstr "Atrybuty produktu"
 
-#: botoscope.php:499
-msgid "Product downloads"
-msgstr "Pliki do pobrania"
+#: botoscope.php:505
+msgid "Product files"
+msgstr ""
 
 #. %d: product ID
 #: exts/business_in_pocket/app.php:442
 msgid "Product ID: %d"
 msgstr "ID produktu: %d"
 
-#: botoscope.php:625
+#: botoscope.php:632
 msgid "Product meta"
 msgstr "Metadane produktu"
 
@@ -1512,8 +1516,8 @@ msgstr "Typ produktu"
 msgid "Product: %s"
 msgstr "Produkt: %s"
 
-#: botoscope.php:523 classes/extensions.php:20 exts/products/app.php:50
-#: exts/shopify_sync/app.php:1169
+#: botoscope.php:529 classes/extensions.php:20 exts/products/app.php:50
+#: exts/shopify_sync/app.php:1147
 msgid "Products"
 msgstr "Produkty"
 
@@ -1526,15 +1530,15 @@ msgstr "Produkty (%d)"
 msgid "Products delivering"
 msgstr "Dostarczanie produktów"
 
-#: botoscope.php:647
+#: botoscope.php:654
 msgid "Products export"
 msgstr "Eksport produktów"
 
-#: botoscope.php:525
+#: botoscope.php:531
 msgid "Products for"
 msgstr "Produkty dla"
 
-#: botoscope.php:646
+#: botoscope.php:653
 msgid "Products import"
 msgstr "Import produktów"
 
@@ -1542,7 +1546,7 @@ msgstr "Import produktów"
 msgid "Products manager"
 msgstr "Menedżer produktów"
 
-#: botoscope.php:626
+#: botoscope.php:633
 msgid "Products meta gallery"
 msgstr "Metagaleria produktów"
 
@@ -1560,7 +1564,7 @@ msgstr "Pozostała ilość: %d"
 msgid "Quantity step"
 msgstr "Krok ilości"
 
-#: botoscope.php:30
+#: botoscope.php:67
 msgid "Read Setup Instructions"
 msgstr "Przeczytaj instrukcje konfiguracji"
 
@@ -1570,11 +1574,11 @@ msgid ""
 msgstr ""
 "Polecaj zakup pełnej kolekcji, nawet jeśli niektóre produkty są wyprzedane"
 
-#: botoscope.php:638
+#: botoscope.php:645
 msgid "Refund policy"
 msgstr "Polityka zwrotów"
 
-#: exts/shopify_sync/app.php:90
+#: exts/shopify_sync/app.php:70
 msgid "Registering webhooks..."
 msgstr "Rejestrowanie webhooków..."
 
@@ -1595,15 +1599,15 @@ msgstr "Powiązane z zamówieniem #%d"
 msgid "Related to product #%1$d \"%2$s\""
 msgstr "Powiązane z produktem #%1$d \"%2$s\""
 
-#: botoscope.php:602
+#: botoscope.php:608
 msgid "Reports"
 msgstr "Raporty"
 
-#: exts/booking/app.php:444 exts/booking/app.php:472
+#: exts/booking/app.php:430 exts/booking/app.php:458
 msgid "Reservations"
 msgstr "Rezerwacje"
 
-#: botoscope.php:472
+#: botoscope.php:478
 msgid "Role"
 msgstr "Rola"
 
@@ -1611,15 +1615,15 @@ msgstr "Rola"
 msgid "Run this after a fresh system installation"
 msgstr "Uruchom to po świeżej instalacji systemu"
 
-#: exts/booking/app.php:445
+#: exts/booking/app.php:431
 msgid "Runtime slots"
 msgstr "Terminy bieżące"
 
-#: botoscope.php:691
+#: botoscope.php:698
 msgid "Sa"
 msgstr "So"
 
-#: botoscope.php:505
+#: botoscope.php:511
 msgid "Sale"
 msgstr "Wyprzedaż"
 
@@ -1628,11 +1632,11 @@ msgstr "Wyprzedaż"
 msgid "Sale price"
 msgstr "Cena promocyjna"
 
-#: botoscope.php:560
+#: botoscope.php:566
 msgid "Sale price should be lower than the regular price!"
 msgstr "Cena promocyjna powinna być niższa niż cena regularna!"
 
-#: exts/booking/app.php:282
+#: exts/booking/app.php:273
 msgid "Sat"
 msgstr "Sob"
 
@@ -1656,11 +1660,11 @@ msgstr "Zapisz i zamknij"
 msgid "Save and Send"
 msgstr "Zapisz i wyślij"
 
-#: botoscope.php:562
+#: botoscope.php:568
 msgid "Saved"
 msgstr "Zapisano"
 
-#: botoscope.php:563
+#: botoscope.php:569
 msgid "Saving ..."
 msgstr "Zapisywanie..."
 
@@ -1668,19 +1672,19 @@ msgstr "Zapisywanie..."
 msgid "search by product title and order id"
 msgstr "szukaj po tytule produktu i ID zamówienia"
 
-#: botoscope.php:501
+#: botoscope.php:507
 msgid "search by title or sku or ID ..."
 msgstr "Szukaj po tytule, SKU lub ID..."
 
-#: botoscope.php:463
+#: botoscope.php:469
 msgid "Search orders"
 msgstr "Szukaj zamówień"
 
-#: botoscope.php:575
+#: botoscope.php:581
 msgid "Select"
 msgstr "Wybierz"
 
-#: botoscope.php:510
+#: botoscope.php:516
 msgid "Select attribute"
 msgstr "Wybierz atrybut"
 
@@ -1688,23 +1692,23 @@ msgstr "Wybierz atrybut"
 msgid "Select audio"
 msgstr "Wybierz audio"
 
-#: botoscope.php:611
+#: botoscope.php:617
 msgid "Select audio file"
 msgstr "Wybierz plik audio"
 
-#: botoscope.php:528
+#: botoscope.php:534
 msgid "select date"
 msgstr "wybierz datę"
 
-#: botoscope.php:613
+#: botoscope.php:619
 msgid "Select image"
 msgstr "Wybierz obraz"
 
-#: botoscope.php:503
+#: botoscope.php:509
 msgid "Select media for the product"
 msgstr "Wybierz media dla produktu"
 
-#: botoscope.php:573
+#: botoscope.php:579
 msgid "Select possible variation"
 msgstr "Wybierz możliwy wariant"
 
@@ -1712,23 +1716,23 @@ msgstr "Wybierz możliwy wariant"
 msgid "Select product brand"
 msgstr "Wybierz markę produktu"
 
-#: botoscope.php:587
+#: botoscope.php:593
 msgid "Select product category"
 msgstr "Wybierz kategorię produktu"
 
-#: botoscope.php:508
+#: botoscope.php:514
 msgid "select product category ..."
 msgstr "wybierz kategorię produktu..."
 
-#: botoscope.php:586
+#: botoscope.php:592
 msgid "Select product type"
 msgstr "Wybierz typ produktu"
 
-#: botoscope.php:527
+#: botoscope.php:533
 msgid "Select strategia"
 msgstr "Wybierz strategię"
 
-#: botoscope.php:509
+#: botoscope.php:515
 msgid "select terms"
 msgstr "wybierz terminy"
 
@@ -1736,19 +1740,19 @@ msgstr "wybierz terminy"
 msgid "Self-pickup from our warehouse"
 msgstr "Odbiór osobisty z naszego magazynu"
 
-#: botoscope.php:556
+#: botoscope.php:562
 msgid "send message"
 msgstr "wyślij wiadomość"
 
-#: botoscope.php:644 exts/broadcast/views/sidebar-broadcast-message.php:28
+#: botoscope.php:651 exts/broadcast/views/sidebar-broadcast-message.php:28
 msgid "Sent"
 msgstr "Wysłano"
 
-#: botoscope.php:680
+#: botoscope.php:687
 msgid "Sep"
 msgstr "Wrz"
 
-#: botoscope.php:666
+#: botoscope.php:673
 msgid "September"
 msgstr "Wrzesień"
 
@@ -1760,7 +1764,7 @@ msgstr ""
 "Ustaw hasło dostępu do sklepu Telegram i udostępnij je swoim klientom. To "
 "sprawi, że Twój sklep Telegram będzie bardziej prywatny"
 
-#: botoscope.php:649
+#: botoscope.php:656
 msgid "set finish"
 msgstr "ustaw zakończenie"
 
@@ -1768,19 +1772,19 @@ msgstr "ustaw zakończenie"
 msgid "Set publication date"
 msgstr "Ustaw datę publikacji"
 
-#: botoscope.php:648
+#: botoscope.php:655
 msgid "set start"
 msgstr "ustaw rozpoczęcie"
 
-#: botoscope.php:543
+#: botoscope.php:549
 msgid "Settings"
 msgstr "Ustawienia"
 
-#: botoscope.php:544
+#: botoscope.php:550
 msgid "Settings for"
 msgstr "Ustawienia dla"
 
-#: botoscope.php:519 classes/extensions.php:41
+#: botoscope.php:525 classes/extensions.php:41
 #: exts/business_in_pocket/app.php:269 exts/shipping/app.php:36
 msgid "Shipping"
 msgstr "Wysyłka"
@@ -1797,7 +1801,7 @@ msgstr "Kwota wysyłki"
 msgid "Shipping method"
 msgstr "Metoda wysyłki"
 
-#: botoscope.php:640
+#: botoscope.php:647
 msgid "Shipping policy"
 msgstr "Polityka wysyłki"
 
@@ -1817,7 +1821,7 @@ msgstr "Strefa czasowa sklepu"
 msgid "Shopify Sync"
 msgstr ""
 
-#: botoscope.php:488
+#: botoscope.php:494
 msgid "Shoulder"
 msgstr "Ramię"
 
@@ -1825,7 +1829,7 @@ msgstr "Ramię"
 msgid "Show catalog on start"
 msgstr "Pokaż katalog na starcie"
 
-#: botoscope.php:633
+#: botoscope.php:640
 msgid "Show on media gallery"
 msgstr "Pokaż w galerii mediów"
 
@@ -1841,7 +1845,7 @@ msgstr "Pokaż przycisk polityki zwrotów"
 msgid "Show shipping policy button"
 msgstr "Pokaż przycisk polityki wysyłki"
 
-#: botoscope.php:634
+#: botoscope.php:641
 msgid "Show under description"
 msgstr "Pokaż pod opisem"
 
@@ -1849,7 +1853,7 @@ msgstr "Pokaż pod opisem"
 msgid "Show View on Website button"
 msgstr "Pokaż przycisk «Zobacz na stronie»"
 
-#: botoscope.php:588 exts/products/app.php:38
+#: botoscope.php:594 exts/products/app.php:38
 msgid "Simple"
 msgstr "Prosty"
 
@@ -1857,7 +1861,7 @@ msgstr "Prosty"
 msgid "Simple Media Casting"
 msgstr ""
 
-#: botoscope.php:591
+#: botoscope.php:597
 msgid "Simple media casting"
 msgstr "Prosta transmisja mediów"
 
@@ -1865,7 +1869,7 @@ msgstr "Prosta transmisja mediów"
 msgid "Simple Virtual"
 msgstr ""
 
-#: botoscope.php:589
+#: botoscope.php:595
 msgid "Simple virtual"
 msgstr "Prosty wirtualny"
 
@@ -1873,7 +1877,7 @@ msgstr "Prosty wirtualny"
 msgid "Simple Virtual Downloadable"
 msgstr ""
 
-#: botoscope.php:590
+#: botoscope.php:596
 msgid "Simple virtual downloadable"
 msgstr "Prosty wirtualny do pobrania"
 
@@ -1885,7 +1889,7 @@ msgstr "Tabele rozmiarów"
 msgid "Sizes corresponding to brand EXAMPLE"
 msgstr "Rozmiary odpowiadające marce PRZYKŁAD"
 
-#: botoscope.php:506 exts/products/views/single-product.php:121
+#: botoscope.php:512 exts/products/views/single-product.php:121
 #: exts/products/views/single-product-variation.php:133
 msgid "SKU"
 msgstr "SKU"
@@ -1896,23 +1900,23 @@ msgstr "SKU"
 msgid "SKU: %s"
 msgstr "SKU: %s"
 
-#: exts/booking/app.php:494
+#: exts/booking/app.php:480
 msgid "Slots"
 msgstr "Terminy"
 
-#: botoscope.php:530 classes/taxonomies.php:525
+#: botoscope.php:536 classes/taxonomies.php:525
 msgid "Start"
 msgstr "Start"
 
-#: exts/booking/app.php:273
+#: exts/booking/app.php:264
 msgid "Start hour"
 msgstr "Godzina rozpoczęcia"
 
-#: exts/booking/app.php:274
+#: exts/booking/app.php:265
 msgid "Start minute"
 msgstr "Minuta rozpoczęcia"
 
-#: botoscope.php:466 exts/business_in_pocket/app.php:225
+#: botoscope.php:472 exts/business_in_pocket/app.php:225
 msgid "Status"
 msgstr "Status"
 
@@ -1936,7 +1940,7 @@ msgstr "Ilość w magazynie"
 msgid "Stock status: %s"
 msgstr "Stan magazynowy: %s"
 
-#: botoscope.php:529
+#: botoscope.php:535
 msgid "Strategia"
 msgstr "Strategia"
 
@@ -1944,15 +1948,15 @@ msgstr "Strategia"
 msgid "Strategies"
 msgstr "Strategie"
 
-#: botoscope.php:692
+#: botoscope.php:699
 msgid "Su"
 msgstr "Nd"
 
-#: exts/products/app.php:1371
+#: exts/products/app.php:1390
 msgid "Such sku already attached to another product"
 msgstr "Este SKU já está vinculado a outro produto"
 
-#: exts/booking/app.php:283
+#: exts/booking/app.php:274
 msgid "Sun"
 msgstr "Nie"
 
@@ -1960,11 +1964,11 @@ msgstr "Nie"
 msgid "Support"
 msgstr "Wsparcie"
 
-#: botoscope.php:596
+#: botoscope.php:602
 msgid "Switcher"
 msgstr "Przełącznik"
 
-#: exts/shopify_sync/app.php:1176
+#: exts/shopify_sync/app.php:1154
 msgid "Sync Products"
 msgstr "Synchronizuj produkty"
 
@@ -1977,7 +1981,7 @@ msgstr ""
 "bota są automatycznie przesyłane z powrotem do Shopify."
 
 #. 1: synced count, 2: total count
-#: exts/shopify_sync/app.php:93
+#: exts/shopify_sync/app.php:75
 #, php-format
 msgid "Synced %1$s of %2$s..."
 msgstr "Zsynchronizowano %1$s z %2$s..."
@@ -1986,17 +1990,17 @@ msgstr "Zsynchronizowano %1$s z %2$s..."
 msgid "Synchronize all store parameters with the store in Telegram"
 msgstr "Synchronizuj wszystkie parametry sklepu ze sklepem w Telegram"
 
-#: botoscope.php:549 classes/controls.php:217
+#: botoscope.php:555 classes/controls.php:217
 msgid "Syncing products with Telegram"
 msgstr "Synchronizacja produktów z Telegram"
 
 #. %s: max products number
-#: botoscope.php:549
+#: botoscope.php:555
 #, php-format
 msgid "Syncing products with Telegram (max. %s products)"
 msgstr "Synchronizacja produktów z Telegramem (maks. %s produktów)"
 
-#: botoscope.php:551 classes/controls.php:211
+#: botoscope.php:557 classes/controls.php:211
 msgid "Syncing site settings with Telegram"
 msgstr "Synchronizacja ustawień witryny z Telegram"
 
@@ -2004,7 +2008,7 @@ msgstr "Synchronizacja ustawień witryny z Telegram"
 msgid "System Controls"
 msgstr "System"
 
-#: botoscope.php:481
+#: botoscope.php:487
 msgid "Table"
 msgstr "Tabela"
 
@@ -2016,7 +2020,7 @@ msgstr "Dostosowane opcje dla przedsiębiorstw B2B"
 msgid "Taxonomies"
 msgstr "Taksonomie"
 
-#: botoscope.php:986
+#: botoscope.php:988
 msgid "Telegram Stars"
 msgstr ""
 
@@ -2024,23 +2028,23 @@ msgstr ""
 msgid "Telegram username for support"
 msgstr "Nazwa użytkownika Telegram dla wsparcia"
 
-#: botoscope.php:500
+#: botoscope.php:506
 msgid "Terms"
 msgstr "Terminy"
 
-#: botoscope.php:650
+#: botoscope.php:657
 msgid "Test mode"
 msgstr "Tryb testowy"
 
-#: botoscope.php:689
+#: botoscope.php:696
 msgid "Th"
 msgstr "Cz"
 
-#: botoscope.php:1135
+#: botoscope.php:1137
 msgid "Thank you"
 msgstr "Dziękuję"
 
-#: botoscope.php:656
+#: botoscope.php:663
 msgid ""
 "The dashboard works best on larger screens. Try opening the site from a "
 "laptop, desktop, or tablet — the interface will be more convenient."
@@ -2059,7 +2063,7 @@ msgid "the default value is 1"
 msgstr "Wartość domyślna to 1"
 
 #. 1: max files count, 2: added files count
-#: botoscope.php:598
+#: botoscope.php:604
 #, php-format
 #| msgid ""
 #| "The maximum allowed number of files is %s. Only %s of the selected files "
@@ -2087,7 +2091,7 @@ msgstr ""
 "grupy. Przypisanie niestandardowej ceny może uczynić Twoją ofertę bardziej "
 "atrakcyjną dla klientów i potencjalnie zwiększyć sprzedaż."
 
-#: botoscope.php:574
+#: botoscope.php:580
 msgid "There are no free possible combinations"
 msgstr "Nie ma dostępnych możliwych kombinacji"
 
@@ -2103,24 +2107,24 @@ msgstr ""
 "Ten tryb pozwala testować kampanie marketingowe widoczne tylko dla czatu "
 "administratora zdefiniowanego w BOTOSCOPE_ADMIN_CHAT_ID"
 
-#: exts/booking/app.php:280
+#: exts/booking/app.php:271
 msgid "Thu"
 msgstr "Czw"
 
-#: botoscope.php:469
+#: botoscope.php:475
 msgid "Ticket"
 msgstr "Bilet"
 
 #. %d: ticket number
-#: exts/business_in_pocket/views/chat.php:31
+#: exts/business_in_pocket/views/chat.php:42
 msgid "Ticket #%d — waiting for reply"
 msgstr "Bilet #%d — oczekiwanie na odpowiedź"
 
-#: botoscope.php:474
+#: botoscope.php:480
 msgid "Time"
 msgstr "Czas"
 
-#: botoscope.php:479 views/sidebar-create-taxonomy.php:14
+#: botoscope.php:485 views/sidebar-create-taxonomy.php:14
 #: views/sidebar-create-attribute.php:14 views/sidebar-edit-taxonomy.php:13
 msgid "Title"
 msgstr "Tytuł"
@@ -2129,7 +2133,7 @@ msgstr "Tytuł"
 msgid "To a bank card"
 msgstr "Na kartę bankową"
 
-#: botoscope.php:609
+#: botoscope.php:615
 msgid "to group"
 msgstr "do grupy"
 
@@ -2144,31 +2148,31 @@ msgstr "Dzisiaj: %1$d zamówienie(ń), łączna kwota %2$s"
 msgid "Toggle booking feature on or off for your Telegram shop"
 msgstr "Włącz lub wyłącz funkcję rezerwacji dla swojego sklepu Telegram"
 
-#: botoscope.php:645
+#: botoscope.php:652
 msgid "Tools"
 msgstr "Narzędzia"
 
-#: botoscope.php:458
+#: botoscope.php:464
 msgid "Topic"
 msgstr "Temat"
 
-#: botoscope.php:467
+#: botoscope.php:473
 msgid "Total"
 msgstr "Razem"
 
-#: botoscope.php:542
+#: botoscope.php:548
 msgid "Translated"
 msgstr "Przetłumaczone"
 
-#: botoscope.php:582
+#: botoscope.php:588
 msgid "Translating ..."
 msgstr "Tłumaczenie..."
 
-#: botoscope.php:687
+#: botoscope.php:694
 msgid "Tu"
 msgstr "Wt"
 
-#: exts/booking/app.php:278
+#: exts/booking/app.php:269
 msgid "Tue"
 msgstr "Wto"
 
@@ -2180,11 +2184,11 @@ msgstr ""
 "Przekształć swoje produkty wirtualne w usługi do rezerwacji, przypisując "
 "terminy — idealne dla trenerów, konsultantów i dostawców usług"
 
-#: botoscope.php:457
+#: botoscope.php:463
 msgid "Type"
 msgstr "Typ"
 
-#: botoscope.php:460
+#: botoscope.php:466
 msgid "Unanswered"
 msgstr "Bez odpowiedzi"
 
@@ -2192,7 +2196,7 @@ msgstr "Bez odpowiedzi"
 msgid "unknown"
 msgstr "nieznany"
 
-#: botoscope.php:461
+#: botoscope.php:467
 msgid "Updated"
 msgstr "Zaktualizowano"
 
@@ -2226,19 +2230,19 @@ msgstr "Użyj strony internetowej"
 msgid "Use your Telegram shop as a catalog only (no checkout)"
 msgstr "Użyj swojego sklepu Telegram tylko jako katalogu (bez płatności)"
 
-#: botoscope.php:545
+#: botoscope.php:551
 msgid "Value"
 msgstr "Wartość"
 
-#: botoscope.php:594 exts/products/app.php:44
+#: botoscope.php:600 exts/products/app.php:44
 msgid "Variable"
 msgstr "Zmienny"
 
-#: botoscope.php:568
+#: botoscope.php:574
 msgid "Variation"
 msgstr "Wariant"
 
-#: botoscope.php:572
+#: botoscope.php:578
 msgid "Variation of product"
 msgstr "Wariant produktu"
 
@@ -2246,7 +2250,7 @@ msgstr "Wariant produktu"
 msgid "Variation type"
 msgstr "Typ wariantu"
 
-#: botoscope.php:569
+#: botoscope.php:575
 msgid "Variations"
 msgstr "Warianty"
 
@@ -2255,15 +2259,15 @@ msgstr "Warianty"
 msgid "Variations (%d)"
 msgstr "Warianty (%d)"
 
-#: botoscope.php:571
+#: botoscope.php:577
 msgid "Variations for product"
 msgstr "Warianty dla produktu"
 
-#: botoscope.php:570
+#: botoscope.php:576
 msgid "Variations of product"
 msgstr "Warianty produktu"
 
-#: botoscope.php:546
+#: botoscope.php:552
 msgid "Video"
 msgstr "Wideo"
 
@@ -2275,11 +2279,11 @@ msgstr "Wirtualny"
 msgid "Virtual Downloadable"
 msgstr "Wirtualny do pobrania"
 
-#: botoscope.php:490
+#: botoscope.php:496
 msgid "Waist"
 msgstr "Talia"
 
-#: botoscope.php:688
+#: botoscope.php:695
 msgid "We"
 msgstr "Śr"
 
@@ -2287,11 +2291,11 @@ msgstr "Śr"
 msgid "Web site link for support"
 msgstr "Link do strony dla wsparcia"
 
-#: exts/booking/app.php:279
+#: exts/booking/app.php:270
 msgid "Wed"
 msgstr "Śro"
 
-#: classes/extensions.php:311
+#: classes/extensions.php:309
 msgid ""
 "Welcome to Botoscope! 🎉\n"
 "\n"
@@ -2325,11 +2329,11 @@ msgstr ""
 msgid "When more than 2 items are purchased, the cheapest one is free"
 msgstr "Przy zakupie więcej niż 2 produktów najtańszy jest gratis"
 
-#: exts/business_in_pocket/views/chat.php:75
+#: exts/business_in_pocket/views/chat.php:86
 msgid "Write a message..."
 msgstr "Napisz wiadomość..."
 
-#: botoscope.php:615
+#: botoscope.php:621
 msgid "Yes"
 msgstr "Tak"
 
@@ -2341,7 +2345,7 @@ msgstr "Tak"
 msgid "yes"
 msgstr "tak"
 
-#: exts/business_in_pocket/views/chat.php:64
+#: exts/business_in_pocket/views/chat.php:75
 msgid "You"
 msgstr "Ty"
 
@@ -2349,7 +2353,7 @@ msgstr "Ty"
 msgid "You can set a logo image for your orders here"
 msgstr "Tutaj możesz ustawić obraz logo dla swoich zamówień"
 
-#: botoscope.php:262
+#: botoscope.php:268
 msgid ""
 "You can use this field to set a thumbnail preview for your videos in the "
 "admin area. This is especially useful for links to videos shared in your "
@@ -2361,12 +2365,12 @@ msgstr ""
 "filmów udostępnianych w dedykowanym kanale Telegram, gdy filmy przekraczają "
 "25 sekund długości i/lub są zbyt duże dla API Telegram."
 
-#: botoscope.php:561
+#: botoscope.php:567
 msgid "You should provide some text"
 msgstr "Powinieneś podać jakiś tekst"
 
 #. %s: max files number
-#: botoscope.php:600
+#: botoscope.php:606
 #, php-format
 #| msgid ""
 #| "You’ve reached the maximum file limit of %s. No more files can be added."

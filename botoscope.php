@@ -7,7 +7,7 @@
   Tested up to: 7.0
   Author: botoscope
   Author URI: https://botoscope.com/about
-  Version: 1.0.2
+  Version: 1.0.3
   Requires PHP: 8.3
   Tags: woocommerce, telegram, ecommerce, shop, chatbot
   Text Domain: botoscope
@@ -39,7 +39,7 @@ include_once 'rest/orders.php';
 include_once 'rest/allrest.php';
 
 define('BOTOSCOPE_PLUGIN_NAME', plugin_basename(__FILE__));
-define('BOTOSCOPE_VERSION', '1.0.2');
+define('BOTOSCOPE_VERSION', '1.0.3');
 define('BOTOSCOPE_PATH', plugin_dir_path(__FILE__));
 define('BOTOSCOPE_LINK', plugin_dir_url(__FILE__));
 define('BOTOSCOPE_ASSETS_LINK', BOTOSCOPE_LINK . 'assets/');
@@ -502,7 +502,7 @@ class Botoscope {
                 'price' => esc_html__('Price', 'botoscope'),
                 'minimum' => esc_html__('Minimum', 'botoscope'),
                 'product' => esc_html__('Product', 'botoscope'),
-                'product_downloads' => esc_html__('Product downloads', 'botoscope'),
+                'product_downloads' => esc_html__('Product files', 'botoscope'),
                 'terms' => esc_html__('Terms', 'botoscope'),
                 'search_by_title_or_sku' => esc_html__('search by title or sku or ID ...', 'botoscope'),
                 'add' => esc_html__('Add', 'botoscope'),
@@ -620,6 +620,7 @@ class Botoscope {
                 'add_image' => esc_html__('Add image', 'botoscope'),
                 'yes' => esc_html__('Yes', 'botoscope'),
                 'no' => esc_html__('No', 'botoscope'),
+                'is_free_plan' => is_botoscope_free() ? '1' : '0',
                 'insert_html' => esc_html__('Insert HTML', 'botoscope'),
                 'enter_html_code' => esc_html__('Enter HTML code', 'botoscope'),
                 'add_all' => esc_html__('Add all', 'botoscope'),
